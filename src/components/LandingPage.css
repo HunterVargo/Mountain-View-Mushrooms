@@ -1,0 +1,8 @@
+#LandingContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/public/LandingImg/Group2.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-color: #BCCCBB;
+}
