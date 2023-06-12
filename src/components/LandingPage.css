@@ -8,28 +8,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-color: rgb(142, 169, 193);
     
 }
 #header{
     display: flex;
-    height: 50px;
+    padding: 16px 0 0 16px;
+    height: 70px;
     align-items: center;
-    justify-content: flex-end;
     overflow: hidden;
 }
 .LandPageLinks{
     margin-right: 32px;
     text-decoration: none;
-    color: #5c5c5c;
-    font-size: 24px;
+    color: #252525;
+    font-size: 28px;
 }
 #bodyLandingPage{
     display: flex;
     justify-content: flex-end;
-    margin: 75px 160px 0 0;
 }
 #TextContentLandingPage{
     text-align: center;
+    margin: 32px 0 0 0;
 }
 #MVMh1{
     font-size: 64px;
@@ -51,7 +52,37 @@
     height: 50px;
 }
 #svg{
-    background-image: url(/public/LandingImg/Logo.svg);
-    width: 50px;
-    height: 50px;
+    background-image: url("/public/favicon.ico");
+    background-repeat: none;
+    background-size: cover;
+    width: 71px;
+    height: 55px;
+    margin-left: 32px;
+}
+#linkBox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#scedualBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    width: 40%;
+    height: 50%;
+    opacity: .7;
+    border-radius: 15px;
+    overflow: scroll;
+    direction: rtl;
+    overflow-x: hidden;
+    scrollbar-color: rgb(61, 61, 61);
+}
+#allContentMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 32px;
+    height: 80%;
 }
