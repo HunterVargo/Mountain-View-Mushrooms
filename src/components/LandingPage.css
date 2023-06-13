@@ -69,14 +69,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(249, 249, 249);
+    background-color: rgb(255, 255, 255);
     width: 40%;
     height: 80%;
-    opacity: .7;
+    opacity: 1;
     border-radius: 15px;
     overflow: scroll;
     overflow-x: hidden;
-    scrollbar-color: rgb(223, 217, 217);
+    
 }
 #allContentMain{
     display: flex;
