@@ -1,7 +1,6 @@
 #widgetBox{
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 16px;
     margin: 16px;
     border-radius: 15px;

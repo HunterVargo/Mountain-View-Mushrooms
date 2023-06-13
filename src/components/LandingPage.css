@@ -71,13 +71,12 @@
     align-items: center;
     background-color: rgb(249, 249, 249);
     width: 40%;
-    height: 50%;
+    height: 80%;
     opacity: .7;
     border-radius: 15px;
     overflow: scroll;
-    direction: rtl;
     overflow-x: hidden;
-    scrollbar-color: rgb(61, 61, 61);
+    scrollbar-color: rgb(223, 217, 217);
 }
 #allContentMain{
     display: flex;
@@ -85,4 +84,7 @@
     align-items: center;
     padding: 0 32px;
     height: 80%;
+}
+#scedualBox::-webkit-scrollbar{
+    width: 0px;
 }

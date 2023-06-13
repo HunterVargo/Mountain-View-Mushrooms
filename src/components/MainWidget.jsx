@@ -1,13 +1,15 @@
 import React from "react";
 import "./MainWidgetStyle.css"
 
-export default function Widget(){
+export default function Widget(props){
     
 
     return(
         <div id="widgetBox">
-            <h2>Farmers Market</h2>
-            <p>location</p>
+            <h2>{props.market}</h2>
+            <h3>{props.time}</h3>
+            <p>{props.location}</p>
+
         </div>
     )
 }
