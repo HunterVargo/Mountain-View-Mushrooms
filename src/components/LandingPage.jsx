@@ -2,10 +2,20 @@ import React from "react";
 import './LandingPage.css';
 import { Link } from "react-router-dom";
 import Widget from './MainWidget.jsx';
+import {Helmet} from "react-helmet"
+
 export default function LandingPage(){
 
     return(
         <div id="LandingContainer">
+            <Helmet>
+                <title>MVM</title>
+                <meta 
+                    name="description"
+                    content="Gourmet mushroom farm located in north-east Pennsylvania. Made and owned by hunter vargo and i am so happy to show you all i have going on."
+                />
+               <link rel="canonical" href="/" />
+            </Helmet>
             
             <div id="header">
                 <div id="svg"></div>
