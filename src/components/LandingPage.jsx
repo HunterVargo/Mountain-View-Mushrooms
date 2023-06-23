@@ -1,15 +1,16 @@
 import React from "react";
 import './LandingPage.css';
 import { Link } from "react-router-dom";
-import Widget from './MainWidget.jsx';
+// import Widget from './MainWidget.jsx';
 import {Helmet} from "react-helmet"
+import Mushvid from "../assets/C0258_preview.mp4"
 
 export default function LandingPage(){
 
     return(
         <div id="LandingContainer">
             <Helmet>
-                <title>MVM</title>
+                <title>Mountain View Mushrooms</title>
                 <meta 
                     name="description"
                     content="Gourmet mushroom farm located in north-east Pennsylvania. Made and owned by hunter vargo and i am so happy to show you all i have going on."
@@ -24,9 +25,9 @@ export default function LandingPage(){
                     <Link className="LandPageLinks" to="/SporeFlow">Software</Link>
                     <Link className="LandPageLinks" to="/Media">Media</Link>
                 </div>
-            </div>
+            </div>  
             <div id="allContentMain">
-                <div id="scedualBox">
+                {/* <div id="scedualBox">
                     <h1>Farmers Markets</h1>
                    <Widget 
                         market="Scranton Co-op"
@@ -44,9 +45,10 @@ export default function LandingPage(){
                         location="104 Vanderbeek Farm Rd, Hawley, PA 184285"
                    />
                 
-                </div>
+                </div> */}
 
-                <div id="bodyLandingPage">    
+                <div id="bodyLandingPage">
+                    <video src={Mushvid} autoPlay loop muted/>    
                     <div id="TextContentLandingPage">
                         <h1 id="MVMh1">Mountain View <br/>Mushrooms</h1>
                         <p id="MVMp">Supplier of specialty mushrooms<br/> located in Northeast, PA. </p>
@@ -55,7 +57,7 @@ export default function LandingPage(){
                             <button className="ButtonLanding">Culinary</button>
                         </div>
                     </div>
-                
+                    
                 </div>
             </div>
         </div>
