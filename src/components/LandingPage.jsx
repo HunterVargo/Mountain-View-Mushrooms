@@ -1,9 +1,8 @@
 import React from "react";
 import './LandingPage.css';
-import { Link } from "react-router-dom";
-// import Widget from './MainWidget.jsx';
 import {Helmet} from "react-helmet"
 import Mushvid from "../assets/C0258_preview.mp4"
+import Header from "./Header";
 
 export default function LandingPage(){
 
@@ -18,14 +17,16 @@ export default function LandingPage(){
                <link rel="canonical" href="/" />
             </Helmet>
             
-            <div id="header">
+            {/* <div id="header">
                 <div id="svg"></div>
                 <div id="linkBox">
                     <Link className="LandPageLinks" to="/Product">Product</Link>
                     <Link className="LandPageLinks" to="/SporeFlow">Software</Link>
                     <Link className="LandPageLinks" to="/Media">Media</Link>
                 </div>
-            </div>  
+            </div>   */}
+            <Header />
+
             <div id="allContentMain">
                 {/* <div id="scedualBox">
                     <h1>Farmers Markets</h1>
