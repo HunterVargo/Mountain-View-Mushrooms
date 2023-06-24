@@ -1,14 +1,26 @@
 import React from "react";
 import Mushcard from "./MushroomCard"
+import "./ProductPageStyling.css"
 export default function Product(){
     
     
     
     return(
-        <div>
+        <div id="ProductPageContainer">
             <Mushcard 
+                Img="./Img/KingPearl.jpg"
                 Mushroom="King Blue Oyster"
-                
+                Description="good mushy"
+            />
+            <Mushcard 
+                Img="./Img/KingPearl.jpg"
+                Mushroom="King Blue Oyster"
+                Description="good mushy"
+            />
+            <Mushcard 
+                Img="./Img/KingPearl.jpg"
+                Mushroom="King Blue Oyster"
+                Description="good mushy"
             />
         </div>
 

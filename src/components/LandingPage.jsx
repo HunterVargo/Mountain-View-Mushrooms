@@ -13,7 +13,7 @@ export default function LandingPage(){
                 <title>Mountain View Mushrooms</title>
                 <meta 
                     name="description"
-                    content="Gourmet mushroom farm located in north-east Pennsylvania. Made and owned by hunter vargo and i am so happy to show you all i have going on."
+                    content="Gourmet mushroom farm located in north-east Pennsylvania. Find all things mushroom related here."
                 />
                <link rel="canonical" href="/" />
             </Helmet>
