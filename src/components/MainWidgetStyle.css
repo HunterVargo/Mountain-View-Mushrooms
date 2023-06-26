@@ -3,6 +3,6 @@
     margin: 16px;
     border-radius: 10px;
     width: 300px;
-    height: 500px;
-    background-color: #555961;
+    height: fit-content;
+    background-color: #364756de;
 }

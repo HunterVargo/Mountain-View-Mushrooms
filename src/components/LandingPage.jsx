@@ -33,11 +33,23 @@ export default function LandingPage(){
                     </div>
                     
                 </div>
-                <h1>Find Mushrooms Here</h1>
+                <h1 id="farmMarketTitles">Find Mushrooms Here</h1>
                 <div id="MarketContainer">
-                        <Widget />
-                        <Widget />
-                        <Widget />
+                        <Widget 
+                            market="Scranton Co-op"
+                            time="12am-6pm, Mon, Wed, Fri"
+                            location="900 Barring Ave, Scranton, PA 18508"
+                        />
+                        <Widget
+                            market="Masthope Mountain"
+                            time="10am-2pm, Sun"
+                            location="192 Karl Hope Blvd, Lackawaxen, PA 18435"
+                        />
+                        <Widget 
+                            market="Vanderbeek Farm Corner"
+                            time="12pm-4pm, Fri, Sat"
+                            location="104 Vanderbeek Farm Rd, Hawley, PA 184285"
+                        />
                 </div>
             </div>
         </div>

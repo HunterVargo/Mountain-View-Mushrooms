@@ -6,7 +6,7 @@ export default function Header(){
 
     return(
         <div id="header">
-            <img id="logo"src="/logo.png" alt="Logo" />
+            <img id="logo"src="/logo.png" alt="Logo" onClick={}/>
             <div id="linkBox">
                 <Link className="LandPageLinks" to="/Product">Product</Link>
                 <Link className="LandPageLinks" to="/SporeFlow">Software</Link>

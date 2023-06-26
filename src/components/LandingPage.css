@@ -31,11 +31,11 @@
     position: absolute;
 }
 #MVMh1{
-    font-size: 64px;
+    font-size: 96px;
     color:rgb(242, 242, 242);
 }
 #MVMp{
-    font-size: 24px;
+    font-size: 32px;
     margin-top: 16px;
     color:rgb(206, 206, 206);
 }
@@ -43,7 +43,7 @@
     margin-top: 24px;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .ButtonLanding{
     border: solid 0px;
@@ -56,7 +56,7 @@
     width: 51px;
     height: 40px;
     margin-left: 32px;
-    filter: drop-shadow(3px 3px 3px #252525);
+    filter: drop-shadow(3px 3px 1px #a7a7a7);
 }
 #linkBox{
     width: 100%;
@@ -81,6 +81,14 @@ video{
 }
 #MarketContainer{
     display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+#farmMarketTitles{
+    margin: 2rem;
+    text-align: center;
+    color: #252525;
 }
 
 /*Scroll Bar*/
@@ -94,7 +102,7 @@ video{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(134, 148, 143);
+    background-color: rgb(237, 237, 237);
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
