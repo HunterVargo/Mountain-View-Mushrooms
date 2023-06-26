@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #header{
     display: flex;
     padding: 0px 0 0 16px;
-    height: 8%;
+    height: 52px;
     align-items: center;
     overflow: hidden;
     background-color: rgb(244, 244, 244);
@@ -63,33 +64,10 @@
     display: flex;
     justify-content: flex-end;
 }
-/* #scedualBox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    width: 40%;
-    height: 80%;
-    opacity: 1;
-    border-radius: 15px;
-    overflow: scroll;
-    overflow-x: hidden;
-    
-} */
+
 #allContentMain{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     height: 92%;
-
-    /* background-image: url("/public/ThreeMushroomBoxes.jpg");
-    background-repeat: none;
-    background-size: cover;
-    background-position: 0 0 0 0; */
-}
-#scedualBox::-webkit-scrollbar{
-    width: 0px;
 }
 video{
     width: 100%;
@@ -98,6 +76,27 @@ video{
     overflow:hidden;
 }
 #LandingContainer{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+    overflow-x: hidden;
+}
+#MarketContainer{
+    display: flex;
+}
+
+/*Scroll Bar*/
+
+::-webkit-scrollbar{
+    width: 10px;
+    color: rgb(132, 89, 34);
+}
+::-webkit-scrollbar-track-verticle{
+    background-color: #252525;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(134, 148, 143);
+}
+::-webkit-scrollbar-thumb-horizontal{
+    background-color: transparent;
 }

@@ -3,6 +3,7 @@ import './LandingPage.css';
 import {Helmet} from "react-helmet"
 import Mushvid from "../assets/C0258_preview.mp4"
 import Header from "./Header";
+import Widget from "./MainWidget";
 
 export default function LandingPage(){
 
@@ -16,37 +17,9 @@ export default function LandingPage(){
                 />
                <link rel="canonical" href="/" />
             </Helmet>
-            
-            {/* <div id="header">
-                <div id="svg"></div>
-                <div id="linkBox">
-                    <Link className="LandPageLinks" to="/Product">Product</Link>
-                    <Link className="LandPageLinks" to="/SporeFlow">Software</Link>
-                    <Link className="LandPageLinks" to="/Media">Media</Link>
-                </div>
-            </div>   */}
             <Header />
 
             <div id="allContentMain">
-                {/* <div id="scedualBox">
-                    <h1>Farmers Markets</h1>
-                   <Widget 
-                        market="Scranton Co-op"
-                        time="12am-6pm, Mon, Wed, Fri"
-                        location="900 Barring Ave, Scranton, PA 18508"
-                   />
-                   <Widget
-                        market="Masthope Mountain"
-                        time="10am-2pm, Sun"
-                        location="192 Karl Hope Blvd, Lackawaxen, PA 18435"
-                   />
-                   <Widget 
-                        market="Vanderbeek Farm Corner"
-                        time="12pm-6pm, Fri, Sat"
-                        location="104 Vanderbeek Farm Rd, Hawley, PA 184285"
-                   />
-                
-                </div> */}
 
                 <div id="bodyLandingPage">
                     <video src={Mushvid} autoPlay loop muted/>    
@@ -59,6 +32,12 @@ export default function LandingPage(){
                         </div>
                     </div>
                     
+                </div>
+                <h1>Find Mushrooms Here</h1>
+                <div id="MarketContainer">
+                        <Widget />
+                        <Widget />
+                        <Widget />
                 </div>
             </div>
         </div>

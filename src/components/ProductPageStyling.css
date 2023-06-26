@@ -1,6 +1,12 @@
 #ProductPageContainer{
     width: 100%;
     height: 100%;
+    padding: 2rem;
+}
+.McardRow{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+#pagetitleSpecies{
+    text-align: center;
 }
