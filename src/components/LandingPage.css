@@ -51,13 +51,12 @@
     width: 150px;
     height: 50px;
 }
-#svg{
-    background-image: url("/public/favicon.ico");
-    background-repeat: none;
-    background-size: cover;
+
+#logo{
     width: 51px;
     height: 40px;
     margin-left: 32px;
+    filter: drop-shadow(3px 3px 3px #252525);
 }
 #linkBox{
     width: 100%;
@@ -90,13 +89,15 @@ video{
     width: 10px;
     color: rgb(132, 89, 34);
 }
-::-webkit-scrollbar-track-verticle{
+::-webkit-scrollbar-track{
     background-color: #252525;
 }
 
 ::-webkit-scrollbar-thumb{
     background-color: rgb(134, 148, 143);
+    border-radius: 10px;
 }
-::-webkit-scrollbar-thumb-horizontal{
-    background-color: transparent;
+::-webkit-scrollbar-thumb:hover{
+    background-color: green;
 }
+
