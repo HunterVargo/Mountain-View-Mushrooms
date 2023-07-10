@@ -26,7 +26,7 @@ export default function Product(){
                     <Mushcard
                         Img="./Img/Pink Oyster Mushroom.jpg"
                         Mushroom="Pink Oyster"
-                        Description="Very little to no stem, it is a tropical species, great with simple saute."
+                        Description="Very little to no stem, a tropical species, great with simple saute."
                     />
                 </div>
                 <div className="McardRow">

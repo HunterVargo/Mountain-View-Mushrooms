@@ -24,6 +24,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    
 }
 #TextContentLandingPage{
     text-align: center;
@@ -31,13 +32,16 @@
     position: absolute;
 }
 #MVMh1{
-    font-size: 96px;
+    font-size: 130px;
     color:rgb(242, 242, 242);
+    font-family: BebasNeue-Regular;
+    filter: drop-shadow( 4px 12px 2px rgba(40, 40, 40, .6));
 }
 #MVMp{
     font-size: 32px;
     margin-top: 16px;
-    color:rgb(206, 206, 206);
+    color:rgb(242, 242, 242);
+    font-family: Shanti-Regular;
 }
 #buttonDiv{
     margin-top: 24px;
@@ -93,6 +97,7 @@ video{
 
 #logo:hover{
     opacity: .7;
+    cursor: pointer
 }
 
 /*Scroll Bar*/
@@ -107,9 +112,18 @@ video{
 
 ::-webkit-scrollbar-thumb{
     background-color: rgb(237, 237, 237);
-    border-radius: 10px;
+    border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover{
     background-color: green;
 }
+/* font */
+ @font-face {
+    font-family: BebasNeue-Regular;
+    src: url(/public/Fonts/BebasNeue-Regular.ttf);
+ }
+ @font-face {
+    font-family: Shanti-Regular;
+    src: url(/public/Fonts/Shanti-Regular.ttf);
+ }
 
