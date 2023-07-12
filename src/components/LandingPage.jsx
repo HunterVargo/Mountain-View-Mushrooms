@@ -6,6 +6,9 @@ import Header from "./Header";
 import Widget from "./MainWidget";
 
 export default function LandingPage(){
+    
+
+
 
     return(
         <div id="LandingContainer">
@@ -35,7 +38,8 @@ export default function LandingPage(){
                 </div>
                 <h1 id="farmMarketTitles">Find Mushrooms Here</h1>
                 <div id="MarketContainer">
-                        <Widget 
+                        <Widget
+                            
                             market="Scranton Co-op"
                             time="12am-6pm, Mon, Wed, Fri"
                             location="900 Barring Ave, Scranton, PA 18508"
@@ -50,6 +54,22 @@ export default function LandingPage(){
                             time="12pm-4pm, Fri, Sat"
                             location="104 Vanderbeek Farm Rd, Hawley, PA 184285"
                         />
+                </div>
+                <div id="aboutme">
+                    <img src="Img/AboutMeImg.png" alt="Company logos" />
+                    <div>
+                        <h1 id="aboutnaem">Hunter Vargo</h1>
+                        <p id="Aboutpara">Owner of Mountain View Mushrooms and SporeLoad Software Tool</p>
+                        <div id="aboutmebutton">About Me</div>
+                    </div>
+
+                </div>
+                <div id="Media">
+                    <div>
+                        <h1 id="mediatitle">Media</h1>
+                        <p id="mediapara">Embark on your farming journey with knowledge. Get valuable guidance and inspiration for your own farm through my free YouTube videos and Instagram content.</p>
+                    </div>
+                    <img id="mediaimg" src="Img/SocialMediaImg.png" alt="Youtube logo" />
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@ export default function Header(){
             <div id="linkBox">
                 <Link className="LandPageLinks" to="/Product">Product</Link>
                 <Link className="LandPageLinks" to="/SporeFlow">Software</Link>
-                <Link className="LandPageLinks" to="/Media">Media</Link>
+                <Link className="LandPageLinks" to="/Media">Grow</Link>
             </div>
         </div>  
     )

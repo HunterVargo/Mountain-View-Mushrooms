@@ -7,8 +7,8 @@
 #header{
     display: flex;
     padding: 0px 0 0 16px;
-    height: 52px;
-    align-items: center;
+    height: 52px;   
+    align-items: center;    
     overflow: hidden;
     background-color: rgb(244, 244, 244);
 }
@@ -16,7 +16,11 @@
     margin-right: 32px;
     text-decoration: none;
     color: #252525;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: BebasNeue-Regular;
+}
+.LandPageLinks:hover{
+    filter:drop-shadow(4px 4px 2px);
 }
 #bodyLandingPage{
     display: flex;
@@ -88,16 +92,24 @@ video{
     justify-content: space-evenly;
     text-align: center;
     color: white;
+    font-family: Shanti-Regular;
+}
+#widgetBox:hover{
+    background-color: #252525;
+    cursor: pointer;
+    filter: drop-shadow( 4px 10px 2px rgba(37, 37, 37, 0.3));
 }
 #farmMarketTitles{
-    margin: 2rem;
+    margin: 3rem;
     text-align: center;
     color: #252525;
+    font-size: 56px;
+    font-family: BebasNeue-Regular;
 }
 
 #logo:hover{
     opacity: .7;
-    cursor: pointer
+    cursor: pointer;
 }
 
 /*Scroll Bar*/
@@ -126,4 +138,52 @@ video{
     font-family: Shanti-Regular;
     src: url(/public/Fonts/Shanti-Regular.ttf);
  }
-
+ #aboutme{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+ }
+#aboutmebutton{
+    background-color: #6f6f6f;
+    width: 200px;
+    height: 75px;
+    color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: BebasNeue-Regular;
+    font-size: 48px;
+    margin: 4rem 0 0 1rem;
+}
+#aboutnaem{
+    font-size: 64px;
+    font-family: BebasNeue-Regular;
+    margin: 0 0 4rem 0;
+}
+#Aboutpara{
+    font-size: 32px;
+    font-family: Shanti-Regular;
+    margin: 0 0 0 4rem;
+}
+#Media{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+}
+#mediatitle{
+    font-size: 64px;
+    font-family: BebasNeue-Regular;
+    margin: 0 0 4rem 0;
+}
+#mediapara{
+    font-size: 28px;
+    font-family: Shanti-Regular;
+    width: 50vw;
+    padding: 0 2rem 0 0;
+    
+}
