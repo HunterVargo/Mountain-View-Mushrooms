@@ -6,3 +6,22 @@
     height: fit-content;
     background-color: #364756de;
 }
+#atag{
+    text-decoration: none;
+    color: aliceblue;
+}
+@media(300px <= width <= 768px){
+    #widgetBox{
+        padding: 8px;
+        margin: 8px;
+        border-radius: 10px;
+        width: 75px;
+        height: fit-content;
+        background-color: #364756de;
+    }
+    #atag{
+        text-decoration: none;
+        color: aliceblue;
+        font-size:8px;
+    }
+}

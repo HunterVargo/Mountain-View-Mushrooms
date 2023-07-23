@@ -6,8 +6,10 @@ import Header from "./Header";
 import Widget from "./MainWidget";
 
 export default function LandingPage(){
+    const Youtube= ()=>{
+        window.location.href ="https://www.youtube.com/@mountainviewmushrooms71"
+    }
     
-
 
 
     return(
@@ -28,10 +30,10 @@ export default function LandingPage(){
                     <video src={Mushvid} autoPlay loop muted/>    
                     <div id="TextContentLandingPage">
                         <h1 id="MVMh1">Mountain View <br/>Mushrooms</h1>
-                        <p id="MVMp">Supplier of specialty mushrooms<br/> located in Northeast, PA. </p>
+                        <p id="MVMp">a supplier of specialty mushrooms<br/> located in Northeast, PA. </p>
                         <div id="buttonDiv">
-                            <button className="ButtonLanding">Mushrooms</button>
-                            <button className="ButtonLanding">Culinary</button>
+                            <button className="bg-slate-100 px-8 py-5 rounded">Mushrooms</button>
+                            <button className="bg-slate-100 px-8 py-5 rounded" >Culinary</button>
                         </div>
                     </div>
                     
@@ -39,7 +41,7 @@ export default function LandingPage(){
                 <h1 id="farmMarketTitles">Find Mushrooms Here</h1>
                 <div id="MarketContainer">
                         <Widget
-                            
+                            url="https://coopfarmersmarket.com"
                             market="Scranton Co-op"
                             time="12am-6pm, Mon, Wed, Fri"
                             location="900 Barring Ave, Scranton, PA 18508"
@@ -48,6 +50,7 @@ export default function LandingPage(){
                             market="Masthope Mountain"
                             time="10am-2pm, Sun"
                             location="192 Karl Hope Blvd, Lackawaxen, PA 18435"
+                            url="https://masthope.org/event/farmers-market-24/"
                         />
                         <Widget 
                             market="Vanderbeek Farm Corner"
@@ -56,7 +59,7 @@ export default function LandingPage(){
                         />
                 </div>
                 <div id="aboutme">
-                    <img src="Img/AboutMeImg.png" alt="Company logos" />
+                    <img id="companyimglogos" src="Img/AboutMeImg.png" alt="Company logos" />
                     <div>
                         <h1 id="aboutnaem">Hunter Vargo</h1>
                         <p id="Aboutpara">Owner of Mountain View Mushrooms and SporeLoad Software Tool</p>
@@ -69,7 +72,7 @@ export default function LandingPage(){
                         <h1 id="mediatitle">Media</h1>
                         <p id="mediapara">Embark on your farming journey with knowledge. Get valuable guidance and inspiration for your own farm through my free YouTube videos and Instagram content.</p>
                     </div>
-                    <img id="mediaimg" src="Img/SocialMediaImg.png" alt="Youtube logo" />
+                    <img  onClick={Youtube}id="mediaimg" src="Img/SocialMediaImg.png" alt="Youtube logo" />
                 </div>
             </div>
         </div>

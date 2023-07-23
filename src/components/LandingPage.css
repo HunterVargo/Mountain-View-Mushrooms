@@ -6,7 +6,7 @@
 
 #header{
     display: flex;
-    padding: 0px 0 0 16px;
+    padding: 0 0 0 16px;
     height: 52px;   
     align-items: center;    
     overflow: hidden;
@@ -36,7 +36,7 @@
     position: absolute;
 }
 #MVMh1{
-    font-size: 130px;
+    font-size: 8rem;
     color:rgb(242, 242, 242);
     font-family: BebasNeue-Regular;
     filter: drop-shadow( 4px 12px 2px rgba(40, 40, 40, .6));
@@ -142,8 +142,9 @@ video{
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2rem 4rem;
+    color: #252525;
  }
 #aboutmebutton{
     background-color: #6f6f6f;
@@ -172,8 +173,9 @@ video{
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2rem 4rem;
+    color: #252525;
 }
 #mediatitle{
     font-size: 64px;
@@ -183,7 +185,107 @@ video{
 #mediapara{
     font-size: 28px;
     font-family: Shanti-Regular;
-    width: 50vw;
-    padding: 0 2rem 0 0;
+    width: 55vw;
+    padding: 0 1rem 0 0;
     
+}
+#mediaimg:hover{
+    cursor: pointer;
+    filter: drop-shadow( 4px 10px 2px rgba(37, 37, 37, 0.3));
+}
+
+
+@media(300px <= width <= 768px){
+    #MVMh1{
+        font-size: 3rem;
+    }
+    #MVMp{
+        display: none;
+    }
+    #buttonDiv{
+        display:none;
+    }
+    #logo{
+        width: 41px;
+        height: 32px;
+        margin-left: 16px;
+        filter: drop-shadow(3px 3px 1px #a7a7a7);
+    }
+    .LandPageLinks{
+        margin-right: 1rem;
+        text-decoration: none;
+        color: #252525;
+        font-size: 1rem;
+        font-family: BebasNeue-Regular;
+    }
+    #linkBox{
+        width: 100vw;
+        display: flex;
+        justify-content: felx-end;
+    }
+    #farmMarketTitles {
+        margin: 2rem;
+        text-align: center;
+        color: #252525;
+        font-size: 1rem;
+        font-family: BebasNeue-Regular;
+    }
+    #Aboutpara {
+        font-size: 8px;
+        font-family: Shanti-Regular;
+        margin: 0 0 0 1rem;
+    }
+    #aboutnaem {
+        font-size: 16px;
+        font-family: BebasNeue-Regular;
+        margin:.5rem;
+    }
+    #aboutme {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0rem 1rem;
+        color: #252525;
+    }
+    #aboutmebutton {
+        background-color: #6f6f6f;
+        width: 71px;
+        height: 30px;
+        color: aliceblue;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: BebasNeue-Regular;
+        font-size: 16px;
+        margin: 1rem 0 0 0rem;
+    }
+    #mediaimg{
+        width:150px;
+
+    }
+    #mediapara {
+        font-size: 8px;
+        font-family: Shanti-Regular;
+        width: 45vw;
+        padding: 0 1rem 0 0;
+    }
+    #mediatitle {
+        font-size: 16px;
+        font-family: BebasNeue-Regular;
+        margin: 0 0 1rem 0;
+    }
+    #Media {
+        height: 169px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem 1rem;
+        color: #252525;
+    }
+    #companyimglogos{
+        width: 75px;
+        margin-right: 1rem;
+    }
 }
