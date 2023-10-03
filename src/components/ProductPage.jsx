@@ -1,18 +1,15 @@
 import React from "react";
-import Mushcard from "./MushroomCard"
-import "./ProductPageStyling.css"
-import Header from "./Header"
-export default function Product(){
-    
-    
-    
-    return(
-
-        <div>
-            <Header />
-            <div id="ProductPageContainer">
-                <h1 id="pagetitleSpecies">Mushroom Species</h1>
-                <div className="McardRow">
+// import Mushcard from "./MushroomCard";
+import "./ProductPageStyling.css";
+import Header from "./Header";
+export default function Product() {
+  return (
+    <div className="h-screen">
+      <Header />
+      <div className="flex items-center justify-center h-5/6">
+        <h1 className="text-2xl p-1 inline-block ">Product Coming Soon...</h1>
+        {/* <h1 id="pagetitleSpecies">Mushroom Species</h1> */}
+        {/* <div className="McardRow">
                     <Mushcard
                         Img="./Img/King Pearl Mushroom.jpg"
                         Mushroom="King Pearl Oyster"
@@ -35,9 +32,8 @@ export default function Product(){
                         Mushroom="Shiitake"
                         Description="One of most popular mushrooms, has a great nutty taste. Stems can be hardy, caps are tender."
                     />
-                </div>
-            </div>
-        </div>
-
-    )
+                </div>*/}
+      </div>
+    </div>
+  );
 }
