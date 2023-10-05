@@ -44,6 +44,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
+
         <h1 id="farmMarketTitles">Find Mushrooms Here</h1>
         <div id="MarketContainer">
           <Widget
@@ -65,7 +66,12 @@ export default function LandingPage() {
             location="104 Vanderbeek Farm Rd, Hawley, PA 184285"
           />
         </div>
-        {/* <div id="aboutme">
+      </div>
+    </div>
+  );
+}
+
+/* <div id="aboutme">
                     <img id="companyimglogos" src="Img/AboutMeImg.png" alt="Company logos" />
                     <div>
                         <h1 id="aboutnaem">Hunter Vargo</h1>
@@ -80,8 +86,4 @@ export default function LandingPage() {
                         <p id="mediapara">Embark on your farming journey with knowledge. Get valuable guidance and inspiration for your own farm through my free YouTube videos and Instagram content.</p>
                     </div>
                     <img  onClick={Youtube}id="mediaimg" src="Img/SocialMediaImg.png" alt="Youtube logo" />
-                </div> */}
-      </div>
-    </div>
-  );
-}
+                </div> */

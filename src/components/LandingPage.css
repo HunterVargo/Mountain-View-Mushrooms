@@ -135,15 +135,6 @@ video {
 ::-webkit-scrollbar-thumb:hover {
   background-color: green;
 }
-/* font */
-@font-face {
-  font-family: BebasNeue-Regular;
-  src: url(/public/Fonts/BebasNeue-Regular.ttf);
-}
-@font-face {
-  font-family: Shanti-Regular;
-  src: url(/public/Fonts/Shanti-Regular.ttf);
-}
 #aboutme {
   height: 500px;
   display: flex;

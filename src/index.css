@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(/public/Fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: Shanti-Regular;
+  src: url(/public/Fonts/Shanti-Regular.ttf);
+}
