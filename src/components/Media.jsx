@@ -5,7 +5,7 @@ export default function Media() {
   return (
     <div>
       <Header />
-      <div className="flex p-20">
+      <div className="flex p-10">
         <div>
           <h1 className=" text-3xl font font-title overflow-hidden">
             Want to Grow Mushrooms?
