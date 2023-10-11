@@ -6,10 +6,6 @@ import Header from "./Header";
 import Widget from "./MainWidget";
 
 export default function LandingPage() {
-  //   const Youtube = () => {
-  //     window.location.href = "https://www.youtube.com/@mountainviewmushrooms71";
-  //   };
-
   return (
     <div id="LandingContainer">
       <Helmet>
@@ -70,20 +66,3 @@ export default function LandingPage() {
     </div>
   );
 }
-
-/* <div id="aboutme">
-                    <img id="companyimglogos" src="Img/AboutMeImg.png" alt="Company logos" />
-                    <div>
-                        <h1 id="aboutnaem">Hunter Vargo</h1>
-                        <p id="Aboutpara">Owner of Mountain View Mushrooms and SporeLoad Software Tool</p>
-                        <div id="aboutmebutton">About Me</div>
-                    </div>
-
-                </div>
-                <div id="Media">
-                    <div>
-                        <h1 id="mediatitle">Media</h1>
-                        <p id="mediapara">Embark on your farming journey with knowledge. Get valuable guidance and inspiration for your own farm through my free YouTube videos and Instagram content.</p>
-                    </div>
-                    <img  onClick={Youtube}id="mediaimg" src="Img/SocialMediaImg.png" alt="Youtube logo" />
-                </div> */
