@@ -1,21 +1,20 @@
 import React from "react";
-import "./LandingPage.css"
-import { Link, useNavigate } from "react-router-dom";
-export default function Header(){
-    const Nav = useNavigate();
+import { Link } from "react-router-dom";
 
-    function Home(){
-        Nav("/")
-    }
+const Header = () => {
+  return (
+    <div className="flex bg-GhostWhite text-EerieBlack justify-between items-end">
+      <div className="font-lilitaOne text-HunyadiYellow text-4xl">MVM</div>
+      <div className="space-x-16 font-inter">
+        <Link to={"/"}>Home</Link>
+        <Link to={"/"}>Product</Link>
+        <Link to={"/"}>Tools</Link>
+        <Link className="text-HunyadiYellow" to={"/"}>
+          About Me
+        </Link>
+      </div>
+    </div>
+  );
+};
 
-    return(
-        <div id="header">
-            <img id="logo"src="/logo.png" alt="Logo" onClick={Home}/>
-            <div id="linkBox">
-                <Link className="LandPageLinks" to="/Product">Product</Link>
-                <Link className="LandPageLinks" to="/SporeFlow">Software</Link>
-                <Link className="LandPageLinks" to="/Media">Grow</Link>
-            </div>
-        </div>  
-    )
-}
+export default Header;

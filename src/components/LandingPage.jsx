@@ -1,13 +1,11 @@
 import React from "react";
-import "./LandingPage.css";
 import { Helmet } from "react-helmet";
-import Mushvid from "../assets/C0258_preview.mp4";
 import Header from "./Header";
-import Widget from "./MainWidget";
+import { TbChefHat } from "react-icons/tb";
 
-export default function LandingPage() {
+const LandingPage = () => {
   return (
-    <div id="LandingContainer">
+    <div className="px-20 py-8 bg-GhostWhite">
       <Helmet>
         <title>Mountain View Mushrooms</title>
         <meta
@@ -17,52 +15,77 @@ export default function LandingPage() {
         <link rel="canonical" href="/" />
       </Helmet>
       <Header />
-
-      <div id="allContentMain">
-        <div id="bodyLandingPage">
-          <video src={Mushvid} autoPlay loop muted />
-          <div id="TextContentLandingPage">
-            <h1 id="MVMh1">
-              Mountain View <br />
-              Mushrooms
-            </h1>
-            <p id="MVMp">
-              a supplier of specialty mushrooms
-              <br /> located in Northeast, PA.{" "}
-            </p>
-            <div id="buttonDiv">
-              <button className="bg-slate-100 px-8 py-5 rounded">
-                Mushrooms
-              </button>
-              <button className="bg-slate-100 px-8 py-5 rounded">
-                Culinary
-              </button>
+      <div className="flex my-44 justify-between">
+        <div className="font-inter text-EerieBlack w-1/3">
+          <h1 className="font-bold text-8xl">
+            Eat More <br /> Mushrooms
+          </h1>
+          <p className="mt-12 text-xl">
+            There is nothing better than fresh gourmet mushrooms. Mountain View
+            Mushrooms is here to fulfill that desire.
+          </p>
+          <div className="flex mt-6 text-xl">
+            <button className="bg-HunyadiYellow text-GhostWhite rounded-xl px-4 py-2">
+              Grow
+            </button>
+            <div className="flex items-center w-full justify-center">
+              <TbChefHat />
+              <button>Recipes</button>
             </div>
           </div>
         </div>
-
-        <h1 id="farmMarketTitles">Find Mushrooms Here</h1>
-        <div id="MarketContainer">
-          <Widget
-            url="https://coopfarmersmarket.com"
-            market="Scranton Co-op"
-            time="12am-6pm, Mon, Wed, Fri"
-            location="900 Barring Ave, Scranton, PA 18508"
-            open={true}
-          />
-          <Widget
-            market="Masthope Mountain"
-            time="10am-2pm, Sun"
-            location="192 Karl Hope Blvd, Lackawaxen, PA 18435"
-            url="https://masthope.org/event/farmers-market-24/"
-          />
-          <Widget
-            market="Vanderbeek Farm Corner"
-            time="12pm-4pm, Fri, Sat"
-            location="104 Vanderbeek Farm Rd, Hawley, PA 184285"
-          />
+        <img
+          className="rounded-3xl w-5/12"
+          src="/Img/KingTCooked.jpg"
+          alt="King Trumpets Cooked"
+        />
+      </div>
+      <div className="flex my-44 justify-between">
+        <img
+          className="rounded-3xl w-5/12"
+          src="/Img/MushroomDisplay.jpg"
+          alt="King Trumpets Cooked"
+        />
+        <div className="font-inter text-EerieBlack text-right flex flex-wrap justify-end">
+          <h1 className="font-bold text-8xl">
+            Find Fresh <br /> Mushrooms
+          </h1>
+          <div className="flex justify-end">
+            <p className="mt-12 text-xl w-4/5">
+              There is nothing better than fresh gourmet mushrooms. Mountain
+              View Mushrooms is here to fulfill that desire.
+            </p>
+          </div>
+          <div className="flex mt-6 text-xl">
+            <button className="bg-HunyadiYellow text-GhostWhite rounded-xl px-4 py-2">
+              Locations
+            </button>
+          </div>
         </div>
+      </div>
+      <div className="flex my-44 justify-between">
+        <div className="font-inter text-EerieBlack w-1/3">
+          <h1 className="font-bold text-8xl">
+            Learn To <br /> Grow!
+          </h1>
+          <p className="mt-12 text-xl">
+            Mushrooms can be a lot of fun to grow. There is something rewarding
+            about eating home grown food.
+          </p>
+          <div className="flex mt-6 text-xl">
+            <button className="bg-HunyadiYellow text-GhostWhite rounded-xl px-4 py-2">
+              Videos
+            </button>
+          </div>
+        </div>
+        <img
+          className="rounded-3xl w-5/12"
+          src="/Img/mushroomkit.jpg"
+          alt="Halloween Grow Kits"
+        />
       </div>
     </div>
   );
-}
+};
+
+export default LandingPage;
