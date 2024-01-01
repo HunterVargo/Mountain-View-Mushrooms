@@ -1,11 +1,13 @@
 import React from "react";
-import LandingPage from "./components/LandingPage.jsx";
+import LandingPage from "./Pages/LandingPage.jsx";
 import { Routes, Route } from "react-router-dom";
+import Product from "./Pages/Product.jsx";
 
 function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<LandingPage />} />
+      <Route exact index element={<LandingPage />} />
+      <Route path="product" element={<Product />} />
     </Routes>
   );
 }

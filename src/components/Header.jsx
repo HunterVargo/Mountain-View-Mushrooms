@@ -7,7 +7,7 @@ const Header = () => {
       <div className="font-lilitaOne text-HunyadiYellow text-4xl">MVM</div>
       <div className="space-x-16 font-inter">
         <Link to={"/"}>Home</Link>
-        <Link to={"/"}>Product</Link>
+        <Link to={"/product"}>Product</Link>
         <Link to={"/"}>Tools</Link>
         <Link className="text-HunyadiYellow" to={"/"}>
           About Me

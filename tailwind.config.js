@@ -9,6 +9,10 @@ module.exports = {
       HunyadiYellow: "#ECA72C",
     },
     extend: {
+      width: {
+        maxView: "1450px",
+        miniView: "360px",
+      },
       fontFamily: {
         inter: ["inter", "sans-serif"],
         lilitaOne: ["lilita One", "sans-serif"],
