@@ -1,8 +1,11 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { TfiYoutube } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-EerieBlack p-20 pb-0">
+    <div className="bg-EerieBlack p-20 pb-0 text-xl">
       <div className="grid grid-cols-4 text-GhostWhite">
         <div className="grid grid-cols-4 col-span-4 font-bold pb-4">
           <div>Company</div>
@@ -14,7 +17,20 @@ const Footer = () => {
           <div>Mountain View Mushrooms</div>
           <div>Mushrooms</div>
           <div>Contact</div>
-          <div></div>
+          <div className="flex space-x-2">
+            <Link
+              to="https://www.instagram.com/mountain_mushrooms/"
+              target="_blank"
+            >
+              <FaInstagram />
+            </Link>
+            <Link
+              to="https://www.youtube.com/@mountainviewmushrooms71"
+              target="_blank"
+            >
+              <TfiYoutube />
+            </Link>
+          </div>
           <div>SporeLoad</div>
           <div>SporeLoad</div>
           <div>SporeLoad</div>

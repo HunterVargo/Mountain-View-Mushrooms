@@ -6,10 +6,8 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <div className="flex justify-center px-20 py-8 bg-GhostWhite">
-        <div className="w-maxView">
-          <Outlet />
-        </div>
+      <div className="flex justify-center py-8 bg-GhostWhite font-inter">
+        <Outlet />
       </div>
       <Footer />
     </>

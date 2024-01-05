@@ -7,10 +7,14 @@ module.exports = {
       GhostWhite: "#FAFAFF",
       EerieBlack: "#181616",
       HunyadiYellow: "#ECA72C",
+      Jasmine: "#FFDC80",
+    },
+    borderWidth: {
+      3: "3px",
     },
     extend: {
       width: {
-        maxView: "1450px",
+        maxView: "1280px",
         miniView: "360px",
       },
       fontFamily: {
