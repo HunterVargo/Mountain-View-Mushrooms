@@ -8,9 +8,16 @@ module.exports = {
       EerieBlack: "#181616",
       HunyadiYellow: "#ECA72C",
       Jasmine: "#FFDC80",
+      SporeGreen: "#69DA96",
+      SporeBlue: "#69B1DA",
     },
     borderWidth: {
+      0: "0",
+      2: "2px",
       3: "3px",
+      4: "4px",
+      6: "6px",
+      8: "8px",
     },
     extend: {
       width: {

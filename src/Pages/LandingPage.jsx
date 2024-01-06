@@ -18,7 +18,7 @@ const LandingPage = () => {
   }, []);
 
   return DisplaySize >= 1280 ? (
-    <div>
+    <div className="overflow-x-hidden">
       <Helmet>
         <title>Mountain View Mushrooms</title>
         <meta
@@ -29,7 +29,7 @@ const LandingPage = () => {
       </Helmet>
 
       <div className="flex justify-center">
-        <div className=" flex my-32 justify-between w-maxView p-20">
+        <div className=" flex my-32 justify-between w-maxView  p-20">
           <div className=" font-inter text-EerieBlack w-1/3 grid">
             <h1
               className=" font-bold text-8xl"
