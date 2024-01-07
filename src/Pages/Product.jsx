@@ -1,19 +1,12 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import MushroomData from "../Data/MushroomData";
+import ProductPgData from "../Data/ProductPgData";
 
 const Product = () => {
   return (
     <div className="my-32">
-      {MushroomData.data.MushroomType.map((mushroomData) => {
-        return (
-          <ProductCard
-            img={mushroomData.Image}
-            key={mushroomData.id}
-            mushroomType={mushroomData.Species}
-          />
-        );
-      })}
+      <ProductCard ProductData={ProductPgData.data.MushroomType} />
+      <ProductCard ProductData={ProductPgData.data.TechHardware} />
     </div>
   );
 };

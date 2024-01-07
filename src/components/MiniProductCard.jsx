@@ -1,9 +1,13 @@
 import React from "react";
 
-const MiniProductCard = ({ img }) => {
+const MiniProductCard = ({ img, getCardData, ComNum, Highlight }) => {
+  console.log(Highlight);
   return (
-    <div className="bg-GhostWhite w-24 h-24 flex items-center border-2">
-      <img className="drop-shadow-2xl" src={`/img/${img}`} alt="" />
+    <div
+      onClick={getCardData}
+      className={`bg-GhostWhite w-24 h-24 flex items-center border-2 rounded-lg hover:cursor-pointer hover:animate-spin ${Highlight}`}
+    >
+      <img id={ComNum} className="" src={`/img/${img}`} alt="" />
     </div>
   );
 };
