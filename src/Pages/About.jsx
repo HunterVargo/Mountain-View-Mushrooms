@@ -53,7 +53,7 @@ const About = () => {
           </div>
           <img
             className="rounded-xl col-span-1 drop-shadow-xl"
-            src="/Img/growtent.png"
+            src="/Img/Growtent.png"
             alt=""
           />
           <img
