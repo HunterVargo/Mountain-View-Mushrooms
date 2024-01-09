@@ -1,0 +1,75 @@
+[debug] [2024-01-09T17:50:49.545Z] ----------------------------------------------------------------------
+[debug] [2024-01-09T17:50:49.547Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hunte\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --debug
+[debug] [2024-01-09T17:50:49.547Z] CLI Version:   13.0.2
+[debug] [2024-01-09T17:50:49.547Z] Platform:      win32
+[debug] [2024-01-09T17:50:49.547Z] Node Version:  v18.15.0
+[debug] [2024-01-09T17:50:49.548Z] Time:          Tue Jan 09 2024 12:50:49 GMT-0500 (Eastern Standard Time)
+[debug] [2024-01-09T17:50:49.548Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-09T17:50:49.601Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-09T17:50:49.602Z] > authorizing via signed-in user (hunters7629@gmail.com)
+[debug] [2024-01-09T17:50:49.603Z] [iam] checking project mountain-view-mushrooms for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-09T17:50:49.604Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mountain-view-mushrooms:testIamPermissions [none]
+[debug] [2024-01-09T17:50:49.605Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mountain-view-mushrooms:testIamPermissions x-goog-quota-user=projects/mountain-view-mushrooms
+[debug] [2024-01-09T17:50:49.605Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mountain-view-mushrooms:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-09T17:50:49.863Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mountain-view-mushrooms:testIamPermissions 200
+[debug] [2024-01-09T17:50:49.864Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mountain-view-mushrooms:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-09T17:50:49.865Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mountain-view-mushrooms [none]
+[debug] [2024-01-09T17:50:50.185Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mountain-view-mushrooms 200
+[debug] [2024-01-09T17:50:50.186Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mountain-view-mushrooms {"projectId":"mountain-view-mushrooms","projectNumber":"917752220525","displayName":"Mountain View Mushrooms","name":"projects/mountain-view-mushrooms","resources":{"hostingSite":"mountain-view-mushrooms"},"state":"ACTIVE","etag":"1_127eaffb-4b6d-4038-8378-0890eb499b9e"}
+[info] 
+[info] === Deploying to 'mountain-view-mushrooms'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-01-09T17:50:50.191Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions [none]
+[debug] [2024-01-09T17:50:50.191Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-01-09T17:50:50.759Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions 200
+[debug] [2024-01-09T17:50:50.760Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions {"name":"projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[mountain-view-mushrooms]: beginning deploy... 
+[info] i  hosting[mountain-view-mushrooms]: found 26 files in build 
+[debug] [2024-01-09T17:50:50.772Z] [hosting] uploading with 200 concurrency
+[debug] [2024-01-09T17:50:50.777Z] [hosting] hash cache [YnVpbGQ] stored for 26 files
+[debug] [2024-01-09T17:50:50.777Z] [hosting][hash queue][FINAL] {"max":2,"min":0,"avg":0,"active":0,"complete":26,"success":26,"errored":0,"retried":0,"total":26,"elapsed":3}
+[debug] [2024-01-09T17:50:50.778Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba:populateFiles [none]
+[debug] [2024-01-09T17:50:50.778Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba:populateFiles {"files":{"/asset-manifest.json":"8f4a63ef6d3f94ad5f22556d191a72638db21dc8846692b7042ce8f5a6e86f94","/favicon.ico":"a33de9079d92f02c264a4477cf2d4bc8e289eab660bc9940939a19008fbf0ed5","/index.html":"3048635d9c1f4330e80810120ee00a619501d72c29e02ef81a983de65e8bbdbe","/logo.png":"a33de9079d92f02c264a4477cf2d4bc8e289eab660bc9940939a19008fbf0ed5","/manifest.json":"1cd75eb32ad70ba9d2dd01ef4b5e527be7f2671d75c492be43d22a8cef7b3c9c","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/Img/aboutme.png":"7b2c3c9cb3d4c721c0a44c675ddf1edbe00ddb27b740404e07a55f2d9a0c33ce","/Img/AutoBagger.png":"215c837328eee38669db5201f3434aea9cbb80a3dc708ef06decf32c735fcd67","/Img/biggrow.png":"f147d8862c2507b818fea284d043d9a5f861a122710fd99a67d1708ac66f7429","/Img/Growtent.png":"261075f4c2e444c1c70c242f4e3a2d93ea7c41b235337cd5053515a3e62ed3d8","/Img/Hepa.png":"844a7baba44f8afc58a9a5efe233803df995bb412d39fc54482c6ddaedffed54","/Img/KingPearl.png":"0acc6c6660340a9aec36335bbe4d5e82155f9dd3adc1153c5040e9d22a091810","/Img/KingTCooked.jpg":"fdf373edfcd94b4b874a465958c8f36c6b17b0ccb16be8cee5cd431f0f60f9fc","/Img/LionsMane.png":"b1bbe38e246c99fea095c2b1c6a5c8ad8d8206e16e716cbad05893c982c8ed3f","/Img/mushBox.png":"173f4b9c6c6aa741ddc9327ca19960ddcff0412d942b8a38cd6c4efbd22221b9","/Img/MushroomDisplay.jpg":"4cfbc85bb2553583dc955d3edb15d706a70ecb6a4d86b3b8b26cccd79d9e7db2","/Img/mushroomkit.jpg":"813d32fee8f82c7152128e70d7066c83d676cb8c98b4a9c6762dad1500497ac0","/Img/Pearl.png":"cfe91d2a23eda3b3e78bdb86736b84f9af89d79e3a576bbd2cbde062007f296d","/Img/SporeGraphic.png":"df8f0b839f25ed54f823bbea63add47c626d5775f4272764e17b3b6d5f8e261a","/static/css/main.99d8ccda.css":"51f8418904dd358396a723c27d20719087774361e5957a733bcb0ac82c24979a","/static/css/main.99d8ccda.css.map":"21c1113e979bd5040267fe636ae07b7ec035d005f2fc38fd891b0a90d27ba042","/static/js/787.51094ea0.chunk.js":"0d1d8b69c2b64a172ce893c47c03dde724e49dcb50a94cada5d049e0f324219a","/static/js/787.51094ea0.chunk.js.map":"2f9de429193942bf50fd476937de881e0be60cbf9985e6135422429acd4893c0","/static/js/main.2c5410d7.js":"2cc60ad78063e1e2516319855fa3c53e940cf9d5da18e2cb434713eac3a617d4","/static/js/main.2c5410d7.js.LICENSE.txt":"565dd7e28253751e5d3db5cbb646ff72914ca9400a72ff219d636ec6912e1074","/static/js/main.2c5410d7.js.map":"2513d97a4769bf37c8323840387c9e09e950697e49d0a90707fe2aaefe51c990"}}
+[debug] [2024-01-09T17:50:51.145Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba:populateFiles 200
+[debug] [2024-01-09T17:50:51.145Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/mountain-view-mushrooms/versions/47926c65734a0dba/files"}
+[debug] [2024-01-09T17:50:51.145Z] [hosting][populate queue][FINAL] {"max":369,"min":369,"avg":369,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":369}
+[debug] [2024-01-09T17:50:51.146Z] [hosting] uploads queued: 0
+[debug] [2024-01-09T17:50:51.146Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1704822651146}
+[info] i  hosting: upload complete 
+[info] +  hosting[mountain-view-mushrooms]: file upload complete 
+[debug] [2024-01-09T17:50:51.147Z] [hosting] deploy completed after 386ms
+[debug] [2024-01-09T17:50:51.147Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "mountain-view-mushrooms"
+    },
+    "version": "projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba"
+  }
+]
+[info] i  hosting[mountain-view-mushrooms]: finalizing version... 
+[debug] [2024-01-09T17:50:51.149Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions/47926c65734a0dba updateMask=status%2Cconfig
+[debug] [2024-01-09T17:50:51.149Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions/47926c65734a0dba {"status":"FINALIZED","config":{}}
+[debug] [2024-01-09T17:50:51.471Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions/47926c65734a0dba 200
+[debug] [2024-01-09T17:50:51.472Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/versions/47926c65734a0dba {"name":"projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2024-01-09T17:50:50.172761Z","createUser":{"email":"hunters7629@gmail.com"},"finalizeTime":"2024-01-09T17:50:51.118282Z","finalizeUser":{"email":"hunters7629@gmail.com"}}
+[debug] [2024-01-09T17:50:51.472Z] [hosting] finalized version for mountain-view-mushrooms:[object Object]
+[info] +  hosting[mountain-view-mushrooms]: version finalized 
+[info] i  hosting[mountain-view-mushrooms]: releasing new version... 
+[debug] [2024-01-09T17:50:51.473Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/channels/live/releases versionName=projects%2F917752220525%2Fsites%2Fmountain-view-mushrooms%2Fversions%2F47926c65734a0dba
+[debug] [2024-01-09T17:50:51.473Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/channels/live/releases {}
+[debug] [2024-01-09T17:50:52.080Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/channels/live/releases 200
+[debug] [2024-01-09T17:50:52.081Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/mountain-view-mushrooms/channels/live/releases {"name":"projects/917752220525/sites/mountain-view-mushrooms/channels/live/releases/1704822651145000","version":{"name":"projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2024-01-09T17:50:50.172761Z","createUser":{"email":"hunters7629@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJGpnN_lp86w0BqvZP1xxQi_RjjJOxGMQKWnGEancfk8h4"},"finalizeTime":"2024-01-09T17:50:51.118282Z","finalizeUser":{"email":"hunters7629@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJGpnN_lp86w0BqvZP1xxQi_RjjJOxGMQKWnGEancfk8h4"}},"type":"DEPLOY","releaseTime":"2024-01-09T17:50:51.145Z","releaseUser":{"email":"hunters7629@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJGpnN_lp86w0BqvZP1xxQi_RjjJOxGMQKWnGEancfk8h4"}}
+[debug] [2024-01-09T17:50:52.082Z] [hosting] release: {"name":"projects/917752220525/sites/mountain-view-mushrooms/channels/live/releases/1704822651145000","version":{"name":"projects/917752220525/sites/mountain-view-mushrooms/versions/47926c65734a0dba","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2024-01-09T17:50:50.172761Z","createUser":{"email":"hunters7629@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJGpnN_lp86w0BqvZP1xxQi_RjjJOxGMQKWnGEancfk8h4"},"finalizeTime":"2024-01-09T17:50:51.118282Z","finalizeUser":{"email":"hunters7629@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJGpnN_lp86w0BqvZP1xxQi_RjjJOxGMQKWnGEancfk8h4"}},"type":"DEPLOY","releaseTime":"2024-01-09T17:50:51.145Z","releaseUser":{"email":"hunters7629@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJGpnN_lp86w0BqvZP1xxQi_RjjJOxGMQKWnGEancfk8h4"}}
+[info] +  hosting[mountain-view-mushrooms]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/mountain-view-mushrooms/overview
+[info] Hosting URL: https://mountain-view-mushrooms.web.app

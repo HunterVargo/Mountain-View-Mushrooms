@@ -9,8 +9,8 @@ import About from "./Pages/About.jsx";
 function App() {
   return (
     <Routes>
-      <Route element={<Layout />}>
-        <Route exact index element={<LandingPage />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<LandingPage />} />
         <Route path="product" element={<Product />} />
         <Route path="software" element={<Tools />} />
         <Route path="about" element={<About />} />

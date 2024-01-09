@@ -42,7 +42,7 @@ const ProductCard = ({ ProductData }) => {
           </div>
           <img
             className="drop-shadow-md"
-            src={`/img/${DisplayMushroom.Image}`}
+            src={`/Img/${DisplayMushroom.Image}`}
             alt=""
           />
         </div>
@@ -54,7 +54,7 @@ const ProductCard = ({ ProductData }) => {
         <div className="">
           <img
             className="drop-shadow-md"
-            src={`/img/${DisplayMushroom.Image}`}
+            src={`/Img/${DisplayMushroom.Image}`}
             alt=""
           />
         </div>
