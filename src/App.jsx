@@ -12,7 +12,7 @@ function App() {
       <Route element={<Layout />}>
         <Route exact index element={<LandingPage />} />
         <Route path="product" element={<Product />} />
-        <Route path="tools" element={<Tools />} />
+        <Route path="software" element={<Tools />} />
         <Route path="about" element={<About />} />
       </Route>
     </Routes>

@@ -16,13 +16,13 @@ const Header = () => {
           className={({ isActive }) => (isActive ? "font-bold" : null)}
           to={"/product"}
         >
-          Product
+          Products
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "font-bold" : null)}
-          to={"/tools"}
+          to={"/software"}
         >
-          Tools
+          Software
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "font-bold" : null)}

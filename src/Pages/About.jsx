@@ -3,16 +3,23 @@ import React from "react";
 const About = () => {
   return (
     <div className="px-20 w-maxView text-2xl">
-      <h1 className="text-center text-8xl font-bold mt-20">My Story</h1>
-      <div className="flex justify-between my-32">
-        <img className="w-5/12 rounded-xl" src="/Img/KingTCooked.jpg" alt="" />
-        <div className="p-6 grid grid-cols-1">
-          <h2 className="text-4xl font-bold font-inter leading-snug text-HunyadiYellow">
-            I’m Hunter, a Mushroom Farmer working to make sure you have
-            mushrooms on your plate.
-          </h2>
+      <div className="flex justify-between mt-52 ">
+        <img
+          className="w-5/12 rounded-xl"
+          src="/Img/aboutme.png"
+          alt="Hunter Vargo"
+        />
+        <div className="p-6 grid grid-cols-1  ml-6 rounded-xl ">
+          <div className="self-end mb-3">
+            <h2 className="text-6xl font-bold font-inter leading-snug text-EerieBlack  ">
+              I'm Hunter Vargo
+            </h2>
+            <h2 className="text-2xl font-bold font-inter leading-snug text-HunyadiYellow ">
+              Owner of Mountain View Mushrooms
+            </h2>
+          </div>
           <p className=" leading-normal ">
-            I started growing mushrooms three years ago, after my mom got me a
+            I started growing mushrooms four years ago, after being gifted a
             home grow kit from the store. After i grew my first cluster of
             mushrooms i was hooked.
           </p>
@@ -33,11 +40,11 @@ const About = () => {
         </div>
       </div>
       <div className="my-32">
-        <h3 className="font-bold text-5xl">2020-2021</h3>
+        <h3 className="font-bold text-5xl my-6">2020-2021</h3>
         <div className="grid grid-cols-3 gap-6">
           <div className="border-3 rounded-xl p-6 col-span-2 shadow-xl bg-Jasmine">
             <h2 className="text-4xl font-bold text-HunyadiYellow mb-6">
-              First Grow Room
+              First Grow Tent
             </h2>
             <p>
               After Figuring out how to grow the basic mushroom species I knew
@@ -45,13 +52,13 @@ const About = () => {
             </p>
           </div>
           <img
-            className="rounded-xl col-span-1 shadow-xl"
-            src="/Img/KingTCooked.jpg"
+            className="rounded-xl col-span-1 drop-shadow-xl"
+            src="/Img/growtent.png"
             alt=""
           />
           <img
-            className="rounded-xl col-span-1 shadow-xl"
-            src="/Img/KingTCooked.jpg"
+            className="rounded-xl col-span-1 drop-shadow-xl"
+            src="/Img/Hepa.png"
             alt=""
           />
           <div className="border-3 rounded-xl p-6 col-span-2 shadow-xl">
@@ -66,7 +73,7 @@ const About = () => {
         </div>
       </div>
       <div className="my-32">
-        <h3 className="font-bold text-5xl">2021-2022</h3>
+        <h3 className="font-bold text-5xl my-6">2021-2022</h3>
         <div className="grid grid-cols-3 gap-6">
           <div className="border-3 rounded-xl p-6 col-span-2 shadow-xl bg-Jasmine">
             <h2 className="text-4xl font-bold text-HunyadiYellow mb-6">
@@ -78,18 +85,18 @@ const About = () => {
             </p>
           </div>
           <img
-            className="rounded-xl col-span-1 shadow-xl"
-            src="/Img/KingTCooked.jpg"
+            className="rounded-xl col-span-1 drop-shadow-xl"
+            src="/Img/mushBox.png"
             alt=""
           />
           <img
-            className="rounded-xl col-span-1 shadow-xl"
-            src="/Img/KingTCooked.jpg"
+            className="rounded-xl col-span-1 "
+            src="/Img/biggrow.png"
             alt=""
           />
           <div className="border-3 rounded-xl p-6 col-span-2 shadow-xl">
             <h2 className="text-4xl font-bold text-HunyadiYellow mb-6">
-              Bigger Grow Room
+              First Grow Room
             </h2>
             <p>
               As i learned more about standard practice of commercial mushroom

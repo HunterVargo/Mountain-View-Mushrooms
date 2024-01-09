@@ -1,4 +1,4 @@
-export default {
+const ProductPgData = {
   data: {
     MushroomType: [
       {
@@ -32,9 +32,10 @@ export default {
         type: "Tech-Hardware",
         Species: "Auto-Bagger",
         Description:
-          " a culinary and medicinal treat. Savored for its delicate, seafood-like flavor, it also holds promise for boosting brain health and immunity, making it a versatile wonder of the fungi kingdom.",
-        Image: "LionsMane.png",
+          "This Auto-Bagger has revolutionized my mushroom block production, significantly reducing the time and effort required. It operates seamlessly by efficiently collecting two primary ingredients, soy hull and hardwood, from their respective hoppers. These ingredients are then precisely dispensed into the open bag, situated around the front funnel. As soon as the substrate in the bag reaches a cumulative weight of four pounds, the system intelligently shuts off the motors. It then adds precisely 6 pounds of water before shutting off once again. Voila! In just about 12 seconds, you have a perfectly crafted mushroom block.",
+        Image: "AutoBagger.png",
       },
     ],
   },
 };
+export default ProductPgData;
