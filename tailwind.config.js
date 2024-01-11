@@ -22,7 +22,7 @@ module.exports = {
     extend: {
       width: {
         maxView: "1280px",
-        miniView: "360px",
+        miniView: "320px",
       },
       fontFamily: {
         inter: ["inter", "sans-serif"],
