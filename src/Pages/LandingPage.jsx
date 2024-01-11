@@ -4,19 +4,6 @@ import { Link } from "react-router-dom";
 import { TbChefHat } from "react-icons/tb";
 
 const LandingPage = () => {
-  // const [DisplaySize, setDisplaySize] = useState(window.innerWidth);
-
-  // useEffect(() => {
-  //   function WacthWidth() {
-  //     setDisplaySize(window.innerWidth);
-  //   }
-  //   window.addEventListener("resize", WacthWidth);
-
-  //   return () => {
-  //     window.removeEventListener("resize", WacthWidth);
-  //   };
-  // }, []);
-
   return (
     <div className="overflow-x-hidden text-5xl sm:text-8xl">
       <Helmet>
@@ -29,7 +16,7 @@ const LandingPage = () => {
       </Helmet>
 
       <div className="flex justify-center sm:text-left text-center">
-        <div className=" sm:flex sm:my-32 justify-between sm:w-maxView w-screen px-6 sm:p-20 p-10">
+        <div className=" sm:flex sm:my-32 justify-between sm:w-maxView w-screen p-6 sm:p-20 ">
           <img
             className="rounded-3xl w-full shadow-xl sm:hidden "
             src="/Img/KingTCooked.jpg"
@@ -47,7 +34,7 @@ const LandingPage = () => {
               View Mushrooms is here to fulfill that desire.
             </p>
             <div className="flex justify-around sm:justify-between w-full mt-6 text-2xl">
-              <button className="bg-HunyadiYellow shadow-xl text-GhostWhite rounded-xl sm:px-10 sm:py-6 px-8 py-3">
+              <button className="bg-HunyadiYellow shadow-xl text-GhostWhite rounded-xl sm:px-10 sm:py-6 px-10 py-3">
                 Grow
               </button>
               <div className="flex items-center animate-pulse">
@@ -116,12 +103,12 @@ const LandingPage = () => {
               Explore the playlist below to delve into the various aspects of
               mushroom cultivation.
             </p>
-            <div className="flex item-center justify-center mt-6 text-3xl">
+            <div className="flex item-center justify-center sm:justify-start mt-6 text-3xl">
               <Link
                 to={
                   "https://www.youtube.com/watch?v=4BiOVZ2VnQ8&list=PLqb2NkRJhIoqaPikdbl4Xo7HybL4sVzo9"
                 }
-                className="bg-HunyadiYellow text-GhostWhite rounded-xl  px-10 py-6 shadow-xl"
+                className="bg-HunyadiYellow text-GhostWhite rounded-xl  sm:px-10 sm:py-6 px-8 py-3 shadow-xl"
               >
                 Video Collection
               </Link>
