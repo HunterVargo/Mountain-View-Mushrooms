@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      extrasm: "375px",
+      sm: "640px",
+    },
     colors: {
       Mint: "#43C59E",
       GhostWhite: "#FAFAFF",

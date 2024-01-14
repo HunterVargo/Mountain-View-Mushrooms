@@ -3,7 +3,7 @@ import { FaRegCircleUser } from "react-icons/fa6";
 
 const Tools = () => {
   return (
-    <div className="font-inter text-2xl text-EerieBlack overflow-x-hidden my-6 sm:my-0">
+    <div className="font-inter text-2xl text-EerieBlack overflow-x-hidden my-6 sm:my-0 ">
       <div className="flex justify-center">
         <div className="flex flex-wrap sm:flex-nowrap sm:my-32 items-center sm:w-maxView sm:p-20 p-6">
           <img
@@ -37,10 +37,10 @@ const Tools = () => {
           />
         </div>
       </div>
-      <div className="bg-SporeBlue w-screen">
+      <div className="bg-SporeBlue w-screen mt-24 mb-20 sm:m-0">
         <div className="flex justify-center">
           <div className=" sm:w-maxView sm:p-20 sm:my-32 my-8">
-            <h2 className="sm:text-end text-center sm:text-8xl text-5xl font-semibold mb-6 ">
+            <h2 className="sm:text-end text-center sm:text-8xl text-4xl font-semibold mb-6 ">
               How It Works
             </h2>
             <iframe
@@ -54,9 +54,9 @@ const Tools = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className=" w-maxView p-20 my-32">
-          <h2 className="sm:text-8xl text-5xl font-semibold py-6 text-center sm:text-left">
+      <div className="flex justify-center p-6 sm:p-0">
+        <div className=" w-maxView sm:p-20 sm:my-32">
+          <h2 className="sm:text-8xl text-4xl font-semibold py-6 text-center sm:text-left">
             Review <span className="sm:block hidden ">& Stats</span>
           </h2>
           <div className="grid sm:grid-cols-4 border-4 rounded-xl sm:p-20 p-6">
@@ -71,20 +71,20 @@ const Tools = () => {
               "Amazing App, so useful!"
             </div>
           </div>
-          <div className="sm:grid grid-cols-6 gap-6 my-8 space-y-8">
-            <div className="p-10 py-12 text-center border-3 rounded-xl col-span-3 shadow-lg">
+          <div className="sm:grid grid-cols-6 gap-6 my-8 space-y-8 sm:space-y-0">
+            <div className="sm:p-10 sm:py-12 p-6 text-center border-3 rounded-xl col-span-3 shadow-lg">
               <h2 className="text-SporeBlue font-bold text-5xl mb-3">
                 $350,000
               </h2>
               <p className="font-semibold">Of User Sales</p>
             </div>
-            <div className="p-10 py-12 text-center border-3 rounded-xl col-span-2 shadow-lg">
-              <h2 className="text-SporeGreen font-bold text-5xl mb-3">
+            <div className="sm:p-10 sm:py-12 p-6 text-center border-3 rounded-xl col-span-2 shadow-lg">
+              <h2 className="text-SporeGreen font-bold text-5xl mb-3 ">
                 100,000
               </h2>
               <p className="font-semibold">Pounds Sold</p>
             </div>
-            <div className="p-10 py-12 text-center border-3 rounded-xl col-span-1 shadow-lg">
+            <div className="sm:p-10 sm:py-12 p-6 text-center border-3 rounded-xl col-span-1 shadow-lg">
               <h2 className="text-SporeBlue font-bold text-5xl mb-3">20+</h2>
               <p className="font-semibold">Users</p>
             </div>
