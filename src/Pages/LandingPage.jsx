@@ -15,7 +15,7 @@ const LandingPage = () => {
         <link rel="canonical" href="/" />
       </Helmet>
 
-      <div className="flex justify-center sm:text-left text-center">
+      <div className="flex justify-center sm:text-left text-center py-8 sm:p-0">
         <div className=" sm:flex sm:my-32 justify-between sm:w-maxView w-screen p-6 sm:p-20 ">
           <img
             className="rounded-3xl w-full shadow-xl sm:hidden "
@@ -50,7 +50,7 @@ const LandingPage = () => {
           />
         </div>
       </div>
-      <div className="bg-Jasmine sm:py-16 sm:my-22 w-svw flex justify-center ">
+      <div className="bg-Jasmine sm:py-16 sm:my-22 w-svw flex justify-center py-8 sm:p-0">
         <div className="sm:flex justify-between w-maxView sm:p-20 p-6">
           <img
             className="rounded-3xl w-svw shadow-xl  sm:hidden"
@@ -83,11 +83,11 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center sm:text-left text-center">
+      <div className="flex justify-center sm:text-left text-center py-8 sm:p-0">
         <div className="sm:flex sm:my-32 justify-between w-maxView sm:p-20 p-6">
           <img
             className="rounded-3xl w-full shadow-xl sm:hidden "
-            src="/Img/KingTCooked.jpg"
+            src="/Img/mushroomkit.jpg"
             alt="King Trumpets Cooked"
           />
           <div className="font-inter text-EerieBlack grid">

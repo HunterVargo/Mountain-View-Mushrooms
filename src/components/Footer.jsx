@@ -5,19 +5,46 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-EerieBlack p-20 pb-0 text-xl">
+    <div className="bg-EerieBlack sm:p-20 p-6 pb-0 sm:text-xl text-base">
       <div className="grid grid-cols-4 text-GhostWhite">
-        <div className="grid grid-cols-4 col-span-4 font-bold pb-4">
+        <div className="grid sm:grid-cols-4 grid-cols-3 col-span-4 font-bold pb-4">
           <div>Company</div>
           <div>Product</div>
           <div>Resources</div>
-          <div>Follow Us</div>
+          <div className="hidden sm:block">Follow Us</div>
         </div>
-        <div className="grid grid-cols-4 col-span-4 text-GhostWhite/70 gap-y-3">
+        <div className="grid sm:grid-cols-4 grid-cols-3 col-span-4 text-GhostWhite/70 gap-y-3">
           <div>Mountain View Mushrooms</div>
           <div>Mushrooms</div>
           <div>Contact</div>
-          <div className="flex space-x-2">
+          <div className="hidden sm:block">
+            <div className="flex space-x-2 ">
+              <Link
+                to="https://www.instagram.com/mountain_mushrooms/"
+                target="_blank"
+              >
+                <FaInstagram />
+              </Link>
+              <Link
+                to="https://www.youtube.com/@mountainviewmushrooms71"
+                target="_blank"
+              >
+                <TfiYoutube />
+              </Link>
+            </div>
+          </div>
+          <div>SporeLoad</div>
+          <div>SporeLoad</div>
+          <div>SporeLoad</div>
+          <div></div>
+          <div></div>
+          <div>Course</div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className="sm:hidden">
+          <h3 className="mt-3">Follow Us</h3>
+          <div className="flex space-x-2 mt-3">
             <Link
               to="https://www.instagram.com/mountain_mushrooms/"
               target="_blank"
@@ -31,14 +58,6 @@ const Footer = () => {
               <TfiYoutube />
             </Link>
           </div>
-          <div>SporeLoad</div>
-          <div>SporeLoad</div>
-          <div>SporeLoad</div>
-          <div></div>
-          <div></div>
-          <div>Course</div>
-          <div>Videos</div>
-          <div></div>
         </div>
         <div className="flex col-span-4 justify-between my-10 text-GhostWhite/70  text-sm">
           <span>Copyright 2024 Mountain View Mushrooms LLC</span>

@@ -4,7 +4,7 @@ import ProductPgData from "../Data/ProductPgData";
 
 const Product = () => {
   return (
-    <div className="my-32">
+    <div className="sm:my-32 my-6 p-6">
       <ProductCard ProductData={ProductPgData.data.MushroomType} />
       <ProductCard ProductData={ProductPgData.data.TechHardware} />
     </div>

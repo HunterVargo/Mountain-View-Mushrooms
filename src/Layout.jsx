@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <div className="flex justify-center py-8 bg-GhostWhite font-inter text-EerieBlack">
+      <div className="flex justify-center sm:py-8 bg-GhostWhite font-inter text-EerieBlack">
         <Outlet />
       </div>
       <Footer />

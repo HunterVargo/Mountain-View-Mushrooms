@@ -11,9 +11,14 @@ const ProductCard = ({ ProductData }) => {
   }
 
   return DisplayMushroom.type === "Tech-Hardware" ? (
-    <div className="w-maxView p-20">
-      <div className="bg-Jasmine p-12 rounded-xl">
-        <div className=" grid grid-cols-2">
+    <div className="sm:w-maxView sm:p-20">
+      <div className="bg-Jasmine sm:p-12 rounded-xl">
+        <div className=" sm:grid grid-cols-2 my">
+          <img
+            className="drop-shadow-md sm:hidden "
+            src={`/Img/${DisplayMushroom.Image}`}
+            alt=""
+          />
           <div className="p-6">
             <h2 className="text-4xl mb-6 font-medium">
               {DisplayMushroom.type}
@@ -41,7 +46,7 @@ const ProductCard = ({ ProductData }) => {
             </div>
           </div>
           <img
-            className="drop-shadow-md"
+            className="drop-shadow-md hidden sm:block"
             src={`/Img/${DisplayMushroom.Image}`}
             alt=""
           />
@@ -49,8 +54,8 @@ const ProductCard = ({ ProductData }) => {
       </div>
     </div>
   ) : (
-    <div className="w-maxView p-20">
-      <div className="bg-Jasmine grid grid-cols-2 p-12 rounded-xl">
+    <div className="sm:w-maxView sm:p-20  mb-32 sm:mb-0">
+      <div className="bg-Jasmine sm:grid grid-cols-2 sm:p-12 rounded-xl">
         <div className="">
           <img
             className="drop-shadow-md"

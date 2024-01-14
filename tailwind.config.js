@@ -23,6 +23,10 @@ module.exports = {
       width: {
         maxView: "1280px",
         miniView: "320px",
+        YtW: "1122px",
+      },
+      height: {
+        YtH: "631.89px",
       },
       fontFamily: {
         inter: ["inter", "sans-serif"],
