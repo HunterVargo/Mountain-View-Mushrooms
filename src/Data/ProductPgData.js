@@ -36,6 +36,35 @@ const ProductPgData = {
         Image: "AutoBagger.png",
       },
     ],
+    Recipes: [
+      {
+        id: "1",
+        Recipe: "Mushroom Soup (No Cream)",
+        Description:
+          "This is a fast and simple hungarian recipe for onion soup.",
+        Ingredients: ["2 Tbsp Butter", "1 Small Union"],
+        Perparation: ["Melt Butter", "Add Mushrooms"],
+        Note: "If a thicker consistency is desired add 1 more tbsp of flour.",
+      },
+      {
+        id: "2",
+        Recipe: "Mushroom beef cake",
+        Description:
+          "This is a fast and simple hungarian recipe for onion soup.",
+        Ingredients: ["2 Tbsp Butter", "1 Small Union"],
+        Perparation: ["Melt Butter", "Add Mushrooms"],
+        Note: "If a thicker consistency is desired add 1 more tbsp of flour.",
+      },
+      {
+        id: "3",
+        Recipe: "Mushroom yummy",
+        Description:
+          "This is a fast and simple hungarian recipe for onion soup.",
+        Ingredients: ["2 Tbsp Butter", "1 Small Union"],
+        Perparation: ["Melt Butter", "Add Mushrooms"],
+        Note: "If a thicker consistency is desired add 1 more tbsp of flour.",
+      },
+    ],
   },
 };
 export default ProductPgData;
