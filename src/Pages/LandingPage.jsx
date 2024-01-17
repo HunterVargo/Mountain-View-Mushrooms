@@ -39,7 +39,7 @@ const LandingPage = () => {
               </button>
               <div className="flex items-center animate-pulse">
                 <TbChefHat />
-                <button>Recipes</button>
+                <Link to={"recipes"}>Recipes</Link>
               </div>
             </div>
           </div>
