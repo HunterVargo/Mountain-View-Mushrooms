@@ -6,7 +6,7 @@ const ProductPgData = {
         type: "Mushroom",
         Species: "King Pearl",
         Description:
-          "Craving bold bites? Look beyond dainty button mushrooms and discover the King Pearl. This robust oyster packs a meaty punch, ready to conquer your grill, braise to succulent perfection, or steal the show in any stew.",
+          "The King Pearl Oyster mushroom, part of the Pleurotus eryngii species, boasts a regal appearance with its substantial, meaty cap and pearly white hue. Its robust, anise-like flavor makes it a gourmet delight, and its larger size and firm texture allow for versatile cooking methods. This Pleurotus eryngii variant adds a touch of sophistication to culinary creations.",
         Image: "KingPearl.png",
       },
       {
@@ -24,6 +24,22 @@ const ProductPgData = {
         Description:
           "The lion's mane mushroom, with its shaggy white cascades, isn't just a striking sight - it's a culinary and medicinal treat. Savored for its delicate, seafood-like flavor, it also holds promise for boosting brain health and immunity, making it a versatile wonder of the fungi kingdom.",
         Image: "LionsMane.png",
+      },
+      {
+        id: "4",
+        type: "Mushroom",
+        Species: "Enoki",
+        Description:
+          "The enoki mushroom (Flammulina velutipes) distinguishes itself with its slender, elongated stems and small, delicate caps. Unlike the broader shapes of many mushrooms, enoki mushrooms have a unique appearance resembling small, white strands, making them stand out in both visual appeal and texture. Their mild, slightly fruity flavor adds a distinct touch to various dishes, and their crunchy texture makes them a popular choice in salads, soups, and Asian cuisine. ",
+        Image: "Enoki.png",
+      },
+      {
+        id: "5",
+        type: "Mushroom",
+        Species: "Pink Oyster",
+        Description:
+          "The pink oyster mushroom (Pleurotus djamor) stands out among its oyster mushroom counterparts due to its distinctive and vibrant pink hue. It offers a mild, anise-like taste and a tender, velvety texture when cooked, providing a unique culinary experience that sets it apart from the more common varieties.",
+        Image: "Pink.png",
       },
     ],
     TechHardware: [

@@ -69,7 +69,7 @@ const ProductCard = ({ ProductData }) => {
           <p className="mt-4 leading-relaxed text-xl">
             {DisplayMushroom.Description}
           </p>
-          <div className="py-6 flex space-x-4">
+          <div className=" pt-6 gap-6 grid extrasm:grid-cols-3 grid-cols-2 sm:grid-cols-4">
             {ProductData.map((mushroomdata) => {
               return (
                 <MiniProductCard
