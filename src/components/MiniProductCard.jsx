@@ -5,7 +5,7 @@ const MiniProductCard = ({ img, getCardData, ComNum, Highlight }) => {
     <div
       id={ComNum}
       onClick={getCardData}
-      className={`bg-GhostWhite w-24 h-24 flex items-center border-2 rounded-lg hover:cursor-pointer hover:animate-spin ${Highlight}`}
+      className={`bg-GhostWhite w-24 h-24 flex items-center border-2 rounded-lg hover:cursor-pointer ${Highlight}`}
     >
       <img id={ComNum} className="" src={`/Img/${img}`} alt="" />
     </div>

@@ -7,7 +7,6 @@ const ProductCard = ({ ProductData }) => {
   function getMiniProductCard(e) {
     const TheId = e.target.id;
     setDisplayMushroom(ProductData[TheId - 1]);
-    console.log(DisplayMushroom);
   }
 
   return DisplayMushroom.type === "Tech-Hardware" ? (
@@ -37,7 +36,7 @@ const ProductCard = ({ ProductData }) => {
                     Highlight={
                       DisplayMushroom.id === mushroomdata.id
                         ? "shadow-xl animate-pulse"
-                        : null
+                        : "hover:animate-spin"
                     }
                     getCardData={(e) => getMiniProductCard(e)}
                   />
@@ -79,7 +78,7 @@ const ProductCard = ({ ProductData }) => {
                   Highlight={
                     DisplayMushroom.id === mushroomdata.id
                       ? "shadow-xl animate-pulse"
-                      : null
+                      : "hover:animate-spin"
                   }
                   getCardData={(e) => getMiniProductCard(e)}
                 />
