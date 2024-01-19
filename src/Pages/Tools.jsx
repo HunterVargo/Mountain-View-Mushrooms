@@ -47,9 +47,8 @@ const Tools = () => {
               className="rounded-2xl shadow-xl border-4 h-48 sm:w-YtW sm:h-YtH"
               src="https://www.youtube.com/embed/S5iDNXM1QRw?si=5tK4A9g4HXlI4xId"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Header = () => {
   const { id } = useParams();
   const location = useLocation().pathname.split("/");
   const last = location[location.length - 1];
-  console.log(location);
+
   return (
     <>
       {!id ? (

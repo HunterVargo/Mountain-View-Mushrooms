@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { TbChefHat } from "react-icons/tb";
@@ -30,13 +29,17 @@ const LandingPage = () => {
               Eat More Mushrooms
             </h1>
             <p className="mt-6 text-2xl leading-10">
-              There is nothing better than fresh gourmet mushrooms. Mountain
-              View Mushrooms is here to fulfill that desire.
+              Explore the freshness of gourmet produce. Elevate your culinary
+              experience with top-quality selections that meet your desire for
+              premium ingredients.
             </p>
             <div className="flex justify-around sm:justify-between w-full mt-6 text-2xl">
-              <button className="bg-HunyadiYellow shadow-xl text-GhostWhite rounded-xl sm:px-10 sm:py-6 px-10 py-3">
-                Grow
-              </button>
+              <Link
+                to={"product"}
+                className="bg-HunyadiYellow shadow-xl text-GhostWhite rounded-xl sm:px-10 sm:py-6 px-2 py-3"
+              >
+                Mushrooms
+              </Link>
               <div className="flex items-center animate-pulse">
                 <TbChefHat />
                 <Link to={"recipes"}>Recipes</Link>
@@ -53,12 +56,12 @@ const LandingPage = () => {
       <div className="bg-Jasmine sm:py-16 sm:my-22 w-svw flex justify-center py-8 sm:p-0">
         <div className="sm:flex justify-between w-maxView sm:p-20 p-6">
           <img
-            className="rounded-3xl w-svw shadow-xl  sm:hidden"
+            className="rounded-3xl aspect-square shadow-xl  sm:hidden"
             src="/Img/MushroomDisplay.jpg"
             alt="King Trumpets Cooked"
           />
           <img
-            className="rounded-3xl w-5/12 shadow-xl hidden sm:block"
+            className="rounded-3xl w-5/12 aspect-square shadow-xl hidden sm:block"
             src="/Img/MushroomDisplay.jpg"
             alt="King Trumpets Cooked"
           />
@@ -75,10 +78,34 @@ const LandingPage = () => {
                 View Mushrooms is here to fulfill that desire.
               </p>
             </div>
-            <div className="flex sm:justify-end justify-center items-center mt-6 text-3xl">
-              <button className="bg-EerieBlack shadow-xl text-GhostWhite rounded-xl  sm:px-10 sm:py-6 px-10 py-3">
-                Locations
-              </button>
+
+            <div className="sm:flex justify-end mt-6">
+              <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 text-2xl  sm:text-center">
+                <Link
+                  target="_blank"
+                  to={
+                    "https://www.google.com/maps/place/Vanderbeek+Farm+Rd,+Lackawaxen+Township,+PA+18428/@41.5015037,-75.1185907,17z/data=!3m1!4b1!4m6!3m5!1s0x89c4add630d7833d:0xd16485b0f89bf8a7!8m2!3d41.5014997!4d-75.1160104!16s%2Fg%2F11hzxjn222?entry=ttu"
+                  }
+                  className="bg-GhostWhite text-HunyadiYellow border-2 border-EerieBlack rounded-lg animate-pulse p-3 sm:w-60"
+                >
+                  <h2>Farm Corner</h2>
+                  <p className="text-EerieBlack text-base">
+                    104 Vanderbeek Farm Rd
+                  </p>
+                </Link>
+                <Link
+                  target="_blank"
+                  to={
+                    "https://www.google.com/maps/place/Co-Op+Farmers'+Market./@41.4047006,-75.7033908,13z/data=!4m10!1m2!2m1!1sScranton+co-op!3m6!1s0x89c4d928bb985005:0x847929508ccdf707!8m2!3d41.422282!4d-75.6624954!15sCg5TY3JhbnRvbiBjby1vcFoQIg5zY3JhbnRvbiBjbyBvcJIBDmZhcm1lcnNfbWFya2V04AEA!16s%2Fg%2F1tfrswhj?entry=ttu"
+                  }
+                  className="bg-GhostWhite text-HunyadiYellow border-2 border-EerieBlack rounded-lg animate-pulse p-3 sm:w-60"
+                >
+                  <h2>Scranton Co-Op</h2>
+                  <p className="text-EerieBlack text-base">
+                    900 Barring Ave, Scranton
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
