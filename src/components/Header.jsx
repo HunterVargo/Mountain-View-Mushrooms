@@ -6,7 +6,7 @@ const Header = () => {
   const { id } = useParams();
   const location = useLocation().pathname.split("/");
   const last = location[location.length - 1];
-
+  console.log(last);
   return (
     <>
       {!id ? (
@@ -21,7 +21,7 @@ const Header = () => {
             </div>
           )}
 
-          <div className="flex  justify-center w-full sm:w-fit mt-6 sm:ml-6 px-6">
+          <div className="flex justify-center w-full sm:w-fit mt-6 sm:ml-6 px-6">
             <nav className="sm:space-x-10 font-inter w-full flex justify-between">
               <NavLink
                 className={({ isActive }) => (isActive ? "font-bold" : null)}
@@ -56,6 +56,15 @@ const Header = () => {
           Back button
         </Link>
       )}
+      <div
+        className={`flex justify-start overflow-hidden text-nowrap text-2xl bg-Jasmine ${
+          last && "hidden"
+        }`}
+      >
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+      </div>
     </>
   );
 };

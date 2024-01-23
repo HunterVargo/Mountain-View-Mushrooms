@@ -3,3 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.contactHeader {
+  padding: 4px 10rem 4px 10rem;
+  animation: Move-ltr 15000ms linear infinite;
+  color: #181616;
+}
+
+@keyframes Move-ltr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
