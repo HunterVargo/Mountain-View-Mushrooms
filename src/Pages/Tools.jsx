@@ -6,11 +6,13 @@ const Tools = () => {
     <div className="font-inter text-2xl text-EerieBlack overflow-x-hidden my-6 sm:my-0 ">
       <div className="flex justify-center">
         <div className="flex flex-wrap sm:flex-nowrap sm:my-32 items-center sm:w-maxView sm:p-20 p-6">
-          <img
-            className="drop-shadow-xl   sm:hidden"
-            src="/Img/SporeGraphic.png"
-            alt=""
-          />
+          <div className="flex justify-center w-full">
+            <img
+              className="drop-shadow-xl sm:hidden"
+              src="/Img/SporeGraphic.png"
+              alt=""
+            />
+          </div>
           <div className="text-center sm:text-left">
             <h1 className="sm:text-8xl text-5xl font-bold mb-12 mt-6 sm:mt-0">
               SporeLoad
@@ -31,7 +33,7 @@ const Tools = () => {
             </div>
           </div>
           <img
-            className="drop-shadow-xl w-5/12 h-1/2 sm:block hidden"
+            className="drop-shadow-xl sm:block hidden "
             src="/Img/SporeGraphic.png"
             alt=""
           />

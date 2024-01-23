@@ -13,6 +13,7 @@ const Recipes = () => {
             <Link
               className="bg-HunyadiYellow text-bold aspect-square flex justify-center items-center"
               to={recipe.id}
+              key={recipe.id}
             >
               <img src="" alt="" />
               <h2 className="text-center">{recipe.Recipe}</h2>

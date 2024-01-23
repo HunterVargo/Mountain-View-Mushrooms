@@ -6,7 +6,6 @@ const SelectedRecipe = () => {
   const { id } = useParams();
   const Recipes = ProductPgData.data.Recipes;
   const SelectedRecipe = id === Recipes[id - 1].id ? Recipes[id - 1] : null;
-  console.log(SelectedRecipe);
 
   return (
     <div className="p-6">
@@ -17,14 +16,14 @@ const SelectedRecipe = () => {
           <p>{SelectedRecipe.Description}</p>
           <h2>Ingrediants</h2>
           <ol className="list-disc list-inside">
-            {SelectedRecipe.Ingredients.map((ingredient) => {
-              return <li>{ingredient}</li>;
+            {SelectedRecipe.Ingredients.map((ingredient, index) => {
+              return <li key={index}>{ingredient}</li>;
             })}
           </ol>
           <h2>Preparation</h2>
           <ol className="list-disc list-inside">
-            {SelectedRecipe.Perparation.map((prep) => {
-              return <li>{prep}</li>;
+            {SelectedRecipe.Perparation.map((prep, index) => {
+              return <li key={index}>{prep}</li>;
             })}
           </ol>
           <p>

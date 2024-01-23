@@ -16,7 +16,7 @@ const About = () => {
                 <h2 className="sm:text-6xl text-5xl text-center sm:text-left font-bold leading-snug text-EerieBlack  ">
                   I'm Hunter Vargo
                 </h2>
-                <h2 className="text-2xl font-bold text-center sm:text-left leading-snug text-HunyadiYellow ">
+                <h2 className="text-2xl font-bold text-center sm:text-left leading-snug text-HunyadiYellow sm:mt-3">
                   Owner of Mountain View Mushrooms
                 </h2>
               </div>
@@ -91,10 +91,12 @@ const About = () => {
         </div>
         <div className="grid grid-cols-3 gap-6 sm:w-maxView">
           <div className=" p-6 col-span-3 sm:col-span-2 text-center">
-            <h2 className="text-4xl font-bold text-EerieBlack mb-6">
+            <h2 className="text-4xl font-bold text-EerieBlack mb-6 sm:text-6xl">
               First Grow Tent
             </h2>
-            <h3 className="font-bold text-2xl my-6">2020-2021</h3>
+            <h3 className="font-bold text-2xl my-6 text-HunyadiYellow">
+              2020-2021
+            </h3>
             <p>
               After Figuring out how to grow the basic mushroom species I knew
               it was time for a real grow room.
@@ -127,10 +129,12 @@ const About = () => {
               alt=""
             />
             <div className="p-6 col-span-3 sm:col-span-2 sm:text-right">
-              <h2 className="text-4xl font-bold text-EerieBlack mb-6">
+              <h2 className="text-4xl font-bold text-EerieBlack mb-6 sm:text-6xl">
                 Farmers Markets
               </h2>
-              <h3 className="font-bold text-2xl my-6">2021-2022</h3>
+              <h3 className="font-bold text-2xl my-6 text-HunyadiYellow">
+                2021-2022
+              </h3>
               <p>
                 I started to get into framers markets. I even created my own.
                 This really help me expand and meet so many amazing people.
@@ -148,10 +152,12 @@ const About = () => {
               alt=""
             />
             <div className=" rounded-xl p-6 col-span-3 sm:col-span-2 text-center sm:text-left ">
-              <h2 className="text-4xl font-bold text-EerieBlack mb-6">
+              <h2 className="text-4xl font-bold text-EerieBlack mb-6 sm:text-6xl">
                 First Grow Room
               </h2>
-              <h3 className="font-bold text-2xl my-6">2022-2023</h3>
+              <h3 className="font-bold text-2xl my-6 text-HunyadiYellow">
+                2022-2023
+              </h3>
               <p>
                 As i learned more about standard practice of commercial mushroom
                 farming, i knew id need a lab to deal with my sterile material.
@@ -167,7 +173,7 @@ const About = () => {
       </div>
       <div className="flex justify-center">
         <div className="my-32 sm:w-maxView p-6 col-span-2 text-center sm:text-left">
-          <h2 className="text-4xl font-bold text-EerieBlack mb-6">
+          <h2 className="text-4xl font-bold text-EerieBlack mb-6 sm:text-6xl">
             Story Continues...
           </h2>
           <p>

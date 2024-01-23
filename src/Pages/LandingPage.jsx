@@ -61,7 +61,7 @@ const LandingPage = () => {
             alt="King Trumpets Cooked"
           />
           <img
-            className="rounded-3xl w-5/12 aspect-square shadow-xl hidden sm:block"
+            className="rounded-3xl w-5/12  shadow-xl hidden sm:block"
             src="/Img/MushroomDisplay.jpg"
             alt="King Trumpets Cooked"
           />
@@ -74,8 +74,10 @@ const LandingPage = () => {
             </h1>
             <div className="flex sm:justify-end justify-center">
               <p className=" text-2xl w-4/5 leading-10 mt-6">
-                There is nothing better than fresh gourmet mushrooms. Mountain
-                View Mushrooms is here to fulfill that desire.
+                Click on the locations for pick-up directions. For Farm Corner,
+                call ahead for a scheduled pick-up. Scranton Co-op is open
+                mid-July to mid-November, Monday, Wednesday, Friday, 11 AM to 4
+                PM.
               </p>
             </div>
 
@@ -124,7 +126,7 @@ const LandingPage = () => {
             >
               Learn To Grow!
             </h1>
-            <p className="mt-12 text-2xl leading-10">
+            <p className="mt-12 text-2xl leading-10 sm:pr-4">
               Cultivating mushrooms can be an enjoyable and rewarding
               experience, especially when indulging in homegrown produce.
               Explore the playlist below to delve into the various aspects of
@@ -135,7 +137,7 @@ const LandingPage = () => {
                 to={
                   "https://www.youtube.com/watch?v=4BiOVZ2VnQ8&list=PLqb2NkRJhIoqaPikdbl4Xo7HybL4sVzo9"
                 }
-                className="bg-HunyadiYellow text-GhostWhite rounded-xl  sm:px-10 sm:py-6 px-8 py-3 shadow-xl"
+                className="bg-HunyadiYellow text-GhostWhite rounded-xl text-2xl sm:px-10 sm:py-6 px-8 py-3 shadow-xl"
               >
                 Video Collection
               </Link>

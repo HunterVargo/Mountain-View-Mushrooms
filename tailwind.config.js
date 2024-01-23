@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     screens: {
       extrasm: "375px",
-      sm: "640px",
+      tab: "768px",
+      sm: "1230px",
     },
     colors: {
       Mint: "#43C59E",

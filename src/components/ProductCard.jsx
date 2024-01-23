@@ -55,9 +55,9 @@ const ProductCard = ({ ProductData }) => {
   ) : (
     <div className="sm:w-maxView sm:p-20 mb-32 sm:mb-0 ">
       <div className="bg-Jasmine sm:grid grid-cols-2 sm:p-12 rounded-xl sm:w-auto w-72 extrasm:w-auto">
-        <div className="">
+        <div className="grid grid-cols-1 justify-items-center">
           <img
-            className="drop-shadow-md sm:w-auto w-64 extrasm:w-auto"
+            className="drop-shadow-md sm:w-auto w-64 extrasm:w-auto "
             src={`/Img/${DisplayMushroom.Image}`}
             alt=""
           />
