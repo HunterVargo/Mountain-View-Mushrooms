@@ -41,6 +41,14 @@ const ProductPgData = {
           "The pink oyster mushroom (Pleurotus djamor) stands out among its oyster mushroom counterparts due to its distinctive and vibrant pink hue. It offers a mild, anise-like taste and a tender, velvety texture when cooked, providing a unique culinary experience that sets it apart from the more common varieties.",
         Image: "Pink.png",
       },
+      {
+        id: "6",
+        type: "Mushroom",
+        Species: "Blue Oyster",
+        Description:
+          "The Blue Oyster Mushroom, belonging to the Pleurotus ostreatus species, is distinguished by its unique characteristics. Featuring a distinct blue hue and a fan-shaped cap, this mushroom adds sophistication to culinary creations. Notably, it possesses a subtle savory flavor and a tender texture, making it adaptable for sautéing and grilling. What sets it apart further is its meaty stem, contributing to its overall robustness. Whether incorporated into risottos, pasta dishes, or other recipes, the Blue Oyster Mushroom offers a refined and substantial addition to your culinary repertoire.",
+        Image: "Blue.png",
+      },
     ],
     TechHardware: [
       {
