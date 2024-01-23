@@ -64,6 +64,10 @@ const Header = () => {
         <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
         <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
         <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
+        <h3 className="contactHeader">Reach Us at 570-576-7467</h3>
       </div>
     </>
   );
