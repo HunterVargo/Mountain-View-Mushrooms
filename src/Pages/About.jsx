@@ -146,11 +146,13 @@ const About = () => {
       <div className="flex justify-center bg-Jasmine">
         <div className="sm:py-6 p-6 sm:w-maxView  ">
           <div className="grid grid-cols-3 gap-6">
-            <img
-              className="rounded-xl col-span-3 sm:hidden p-6"
-              src="/Img/biggrow.png"
-              alt=""
-            />
+            <div className="col-span-3 flex justify-center">
+              <img
+                className="rounded-xl  sm:hidden p-6"
+                src="/Img/biggrow.png"
+                alt=""
+              />
+            </div>
             <div className=" rounded-xl p-6 col-span-3 sm:col-span-2 text-center sm:text-left ">
               <h2 className="text-4xl font-bold text-EerieBlack mb-6 sm:text-6xl">
                 First Grow Room
