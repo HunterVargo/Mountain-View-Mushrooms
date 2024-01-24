@@ -21,9 +21,10 @@ const About = () => {
                 </h2>
               </div>
               <p className=" leading-normal sm:text-left text-center">
-                I started growing mushrooms four years ago, after being gifted a
-                home grow kit from the store. After i grew my first cluster of
-                mushrooms i was hooked.
+                Four years ago, I was gifted a home grow kit that sparked my
+                passion for mushroom cultivation. Growing my first cluster, I
+                became captivated by the art and science behind these
+                fascinating fungi.
               </p>
               <div className="sm:block hidden">
                 <div className=" grid-cols-6 gap-6 my-8  sm:flex ">
@@ -98,8 +99,12 @@ const About = () => {
               2020-2021
             </h3>
             <p>
-              After Figuring out how to grow the basic mushroom species I knew
-              it was time for a real grow room.
+              Upon mastering the cultivation of basic mushroom species, I
+              recognized the need for a dedicated space to elevate my endeavors.
+              Enter the grow tent – compact yet highly effective. Realizing the
+              importance of safeguarding my mushroom strains from contamination,
+              I established a proper lab to facilitate healthy mushroom
+              production.
             </p>
           </div>
           <div className="sm:block hidden">
@@ -136,8 +141,11 @@ const About = () => {
                 2021-2022
               </h3>
               <p>
-                I started to get into framers markets. I even created my own.
-                This really help me expand and meet so many amazing people.
+                I ventured into farmers' markets, and eventually, I established
+                my own. These markets played a crucial role in expanding my
+                reach and connecting with numerous incredible individuals.
+                Naturally, this journey fostered many connections and
+                friendships along the way.
               </p>
             </div>
           </div>
@@ -161,8 +169,12 @@ const About = () => {
                 2022-2023
               </h3>
               <p>
-                As i learned more about standard practice of commercial mushroom
-                farming, i knew id need a lab to deal with my sterile material.
+                The growing demand for mushrooms has become evident, and there
+                is a definite opportunity for expansion to reach more people.
+                Recognizing this, I embarked on a search for a space more
+                conducive to mushroom farming. Fortunately, I discovered the
+                perfect location – now, I'm cultivating in a full-size bar
+                equipped with heating and water facilities.
               </p>
             </div>
             <img
@@ -179,9 +191,9 @@ const About = () => {
             Story Continues...
           </h2>
           <p>
-            To Stay up tp date follow my Social Media. Feel free to also contact
-            me if you have any questions. Thank you all who support me. On Wards
-            and up wards!
+            Stay informed by following my social media channels. For any
+            inquiries, don't hesitate to reach out. Grateful for the ongoing
+            support—thank you! Onwards and upwards!
           </p>
         </div>
       </div>
