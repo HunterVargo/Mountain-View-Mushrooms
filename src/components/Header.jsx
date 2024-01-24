@@ -57,7 +57,7 @@ const Header = () => {
         </Link>
       )}
       <div
-        className={`flex justify-start overflow-hidden text-nowrap text-2xl bg-Jasmine ${
+        className={`flex justify-start overflow-hidden text-nowrap text-2xl bg-Jasmine text-EerieBlack font-lilitaOne ${
           last && "hidden"
         }`}
       >

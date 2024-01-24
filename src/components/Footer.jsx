@@ -37,9 +37,9 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div>SporeLoad</div>
-              <div>SporeLoad</div>
-              <div>SporeLoad</div>
+              <Link to={"software"}>SporeLoad</Link>
+              <Link>Hardware</Link>
+              <Link>SporeLoad</Link>
               <div></div>
               <div></div>
               <div>Course</div>
