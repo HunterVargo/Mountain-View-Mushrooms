@@ -7,6 +7,7 @@ import Tools from "./Pages/Tools.jsx";
 import About from "./Pages/About.jsx";
 import Recipes from "./Pages/Recipes.jsx";
 import SelectedRecipe from "./Pages/SelectedRecipe.jsx";
+import Privacy from "./Pages/Privacy.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="recipes" element={<Recipes />} />
         <Route path="recipes/:id" element={<SelectedRecipe />} />
+        <Route path="privacy" element={<Privacy />} />
       </Route>
     </Routes>
   );

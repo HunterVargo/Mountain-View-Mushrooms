@@ -18,9 +18,9 @@ const Footer = () => {
               <div className="hidden sm:block">Follow Us</div>
             </div>
             <div className="grid sm:grid-cols-4 grid-cols-3 col-span-4 text-GhostWhite/70 gap-y-3">
-              <div>Mountain View Mushrooms</div>
-              <div>Mushrooms</div>
-              <div>Contact</div>
+              <Link to={"about"}>Mountain View Mushrooms</Link>
+              <Link to={"product"}>Mushrooms</Link>
+              <Link to={"/"}>Contact</Link>
               <div className="hidden sm:block">
                 <div className="flex space-x-2 ">
                   <Link
@@ -38,11 +38,13 @@ const Footer = () => {
                 </div>
               </div>
               <Link to={"software"}>SporeLoad</Link>
-              <Link>Hardware</Link>
-              <Link>SporeLoad</Link>
+              <Link to={"product"}>Hardware</Link>
+              <Link to={"about"}>About Us</Link>
               <div></div>
               <div></div>
-              <div>Course</div>
+              <div title="Building..." className="hover:cursor-none">
+                Course
+              </div>
               <div></div>
               <div></div>
             </div>
@@ -63,9 +65,9 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex col-span-4 justify-between my-10 text-GhostWhite/70  text-sm">
+            <div className="flex col-span-4 justify-between my-10 text-GhostWhite/70 sm:mt-28 text-sm">
               <span>Copyright 2024 Mountain View Mushrooms LLC</span>
-              <span>Privacy Policy</span>
+              <Link to={"privacy"}>Privacy Policy</Link>
             </div>
           </div>
         </div>
