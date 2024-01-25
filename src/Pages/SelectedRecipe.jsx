@@ -14,14 +14,18 @@ const SelectedRecipe = () => {
   function togglePrintStyles() {
     setPrintStyle(false);
     isPrintable.current = true;
-    console.log(isPrintable);
   }
   useEffect(() => {
     if (isPrintable.current) {
       isPrintable.current = false;
       window.print();
-      console.log("working");
-      setPrintStyle(true);
+      if (window.innerWidth <= 768) {
+        setTimeout(() => setPrintStyle(true), 5000); // this is to help mobile devices print the page without buttons on the recipe sheet. Gives time for device to render print correct print out style.
+        console.log("Mobile device");
+      } else {
+        setPrintStyle(true);
+        console.log("Desktop device");
+      }
     }
   }, [printStyle]);
 
