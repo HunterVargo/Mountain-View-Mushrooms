@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 const Header = () => {
@@ -52,9 +52,7 @@ const Header = () => {
           </div>
         </div>
       ) : (
-        <Link to=".." relative="path">
-          Back button
-        </Link>
+        <div></div>
       )}
       <div
         className={`flex justify-start overflow-hidden text-nowrap text-2xl bg-Jasmine text-EerieBlack font-lilitaOne ${

@@ -63,30 +63,28 @@ const ProductPgData = {
     Recipes: [
       {
         id: "1",
-        Recipe: "Mushroom Soup (No Cream)",
+        Recipe: "Mushroom Soup",
+        Image: "Soup.png",
         Description:
-          "This is a fast and simple hungarian recipe for onion soup.",
-        Ingredients: ["2 Tbsp Butter", "1 Small Union"],
-        Perparation: ["Melt Butter", "Add Mushrooms"],
-        Note: "If a thicker consistency is desired add 1 more tbsp of flour.",
-      },
-      {
-        id: "2",
-        Recipe: "Mushroom beef cake",
-        Description:
-          "This is a fast and simple hungarian recipe for onion soup.",
-        Ingredients: ["2 Tbsp Butter", "1 Small Union"],
-        Perparation: ["Melt Butter", "Add Mushrooms"],
-        Note: "If a thicker consistency is desired add 1 more tbsp of flour.",
-      },
-      {
-        id: "3",
-        Recipe: "Mushroom yummy",
-        Description:
-          "This is a fast and simple hungarian recipe for onion soup.",
-        Ingredients: ["2 Tbsp Butter", "1 Small Union"],
-        Perparation: ["Melt Butter", "Add Mushrooms"],
-        Note: "If a thicker consistency is desired add 1 more tbsp of flour.",
+          "This is a fast and simple Hungarian recipe for onion soup. The addition of dry white wine makes it a bit unique, otherwise, it is pretty close to being a standard mushroom soup recipe.",
+        Ingredients: [
+          "2 tablespoons Butter",
+          "1 Small Onion, approximately 1 cup, chopped",
+          "1 tablespoon Chopped Garlic",
+          "1/2 to 3/4 pound Coarsely Chopped Mushrooms",
+          "3 sprigs Fresh Rosemary or 1/2 teaspoon Dried Rosemary",
+          "3 cups Beef Stock",
+          "1 cup Dry White Wine",
+          "Salt and Pepper to taste",
+        ],
+        Perparation: [
+          "Melt the butter in a medium-size stockpot.",
+          "Add the onion and garlic, mix well, and cook over medium heat until the onion is translucent, about 10 minutes.",
+          "Add the mushrooms and rosemary and cook 5 more minutes.",
+          "Add the stock and the wine and season with salt and pepper to taste.",
+          "Reduce the heat to medium-low, and cook, covered, for 30 minutes, stirring occasionally.",
+        ],
+        Note: "If a thicker consistency is desired, add 1 or more tablespoons of flour or corn starch to the soup at the beginning of the 30-minute cooking time. Mix well to avoid lumps.",
       },
     ],
   },
