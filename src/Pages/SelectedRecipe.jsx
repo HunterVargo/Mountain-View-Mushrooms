@@ -20,7 +20,7 @@ const SelectedRecipe = () => {
       isPrintable.current = false;
       window.print();
       if (window.innerWidth <= 768) {
-        setTimeout(() => setPrintStyle(true), 5000); // this is to help mobile devices print the page without buttons on the recipe sheet. Gives time for device to render print correct print out style.
+        setTimeout(() => setPrintStyle(true), 7000); // this is to help mobile devices print the page without buttons on the recipe sheet. Gives time for device to render print correct print out style.
         console.log("Mobile device");
       } else {
         setPrintStyle(true);

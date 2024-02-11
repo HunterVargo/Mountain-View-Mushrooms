@@ -86,6 +86,53 @@ const ProductPgData = {
         ],
         Note: "If a thicker consistency is desired, add 1 or more tablespoons of flour or corn starch to the soup at the beginning of the 30-minute cooking time. Mix well to avoid lumps.",
       },
+      {
+        id: "2",
+        Recipe: "Mushroom Marinate",
+        Image: "Marinate.png",
+        Description:
+          "These marinated mushrooms are tangy and flavorful, perfect as an appetizer or addition to salads and antipasto platters.",
+        Ingredients: [
+          "2/3 cup extra-virgin olive oil",
+          "1/2 cup water",
+          "Juice of 2 lemons (about 4 tablespoons)",
+          "1 bay leaf",
+          "2 cloves garlic, bruised",
+          "6 whole peppercorns",
+          "1/2 teaspoon salt",
+          "1-1.5 pounds mushrooms",
+        ],
+        Perparation: [
+          "Combine extra-virgin olive oil, water, lemon juice, bay leaf, garlic, peppercorns, and salt in a deep stainless steel skillet.",
+          "Bring to a boil over medium heat. Reduce the heat to medium-low, cover, and simmer for 15 minutes.",
+          "Strain the marinade and return the liquid to the skillet. Bring to a simmer over low heat.",
+          "Add the mushrooms and cook, stirring, for 5 additional minutes.",
+          "Let the mushrooms cool in the marinade, then remove them along with the marinade and chill in the refrigerator for 15 minutes.",
+          "Drain the mushrooms and serve cold or at room temperature.",
+        ],
+        Note: "For added flavor, consider adding fresh herbs like thyme or rosemary to the marinade.",
+      },
+      {
+        id: "3",
+        Recipe: "Sautéed Mushrooms",
+        Image: "Saute.png",
+        Description:
+          "This simple mushroom recipe is delicious as a side, appetizer, part of a salad, or even just a snack.",
+        Ingredients: [
+          "2 tablespoons olive oil",
+          "1 tablespoon unsalted butter",
+          "1 cup chopped Portobello mushrooms",
+          "2 teaspoons dried oregano",
+          "1 teaspoon garlic powder",
+          "1 teaspoon steak seasoning rub (Optional)",
+        ],
+        Perparation: [
+          "Heat olive oil and butter in a skillet over medium heat. Stir in mushrooms until well coated.",
+          "Sprinkle oregano, garlic powder, and steak seasoning on mushrooms; stir to coat.",
+          "Cook and stir mushrooms until lightly browned, about 5 minutes.",
+        ],
+        Note: "Feel free to get creative and add or take away ingredients",
+      },
     ],
   },
 };
