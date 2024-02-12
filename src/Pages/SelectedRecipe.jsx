@@ -21,10 +21,8 @@ const SelectedRecipe = () => {
       window.print();
       if (window.innerWidth <= 768) {
         setTimeout(() => setPrintStyle(true), 7000); // this is to help mobile devices print the page without buttons on the recipe sheet. Gives time for device to render print correct print out style.
-        console.log("Mobile device");
       } else {
         setPrintStyle(true);
-        console.log("Desktop device");
       }
     }
   }, [printStyle]);
@@ -71,7 +69,7 @@ const SelectedRecipe = () => {
             </ol>
             <h2 className="text-2xl font-semibold my-6">Preparation</h2>
             <ol className="list-disc list-inside text-2xl">
-              {SelectedRecipe.Perparation.map((prep, index) => {
+              {SelectedRecipe.Preparation.map((prep, index) => {
                 return <li key={index}>{prep}</li>;
               })}
             </ol>
